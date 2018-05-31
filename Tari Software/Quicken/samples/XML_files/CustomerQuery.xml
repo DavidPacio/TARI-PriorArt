@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<!-- ========================================================================== -->
+<!-- Sample illustrating the Customer Query request.                            -->
+<!-- This XML file contains a single request to query for customers. Since      -->
+<!-- no filters are used in this request all customers will be returned.        -->
+<!--                                                                            -->
+<!-- ========================================================================== -->
+
+<?qbxml version="OZ2.0"?>
+<QBXML>
+  <QBXMLMsgsRq onError="continueOnError">
+    <CustomerQueryRq requestID="2" /> 
+  </QBXMLMsgsRq>
+</QBXML>

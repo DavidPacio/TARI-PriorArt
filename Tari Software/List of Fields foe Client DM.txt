@@ -1,0 +1,170 @@
+    AccountDetailsACCOUNT_NUMBER: TIntegerField;
+    AccountDetailsACCOUNT_TITLE: TStringField;
+    AccountDetailsSTATIC_VALUE: TSmallintField;
+    AccountDetailsACCOUNT_SUBTITLE: TStringField;
+
+    LOSystemDBVERSION: TStringField;
+    LOSystemDBPASSWORD: TStringField;
+
+    LookupSummaryIntervalsPeriod_ID: TIntegerField;
+    LookupSummaryIntervalsPeriod_Desc: TStringField;
+
+    BusinessDetailsBUSINESS_NAME: TStringField;
+    BusinessDetailsDATE_LAST_ACCESSED: TDateTimeField;
+    BusinessDetailsMAINDEPT: TIntegerField;
+
+    DepartmentsDEPT_ID: TIntegerField;
+    DepartmentsREVENUE_GROUP_NAME: TStringField;
+    DepartmentsREPORT_CODE1: TStringField;
+    DepartmentsREPORT_CODE2: TStringField;
+    DepartmentsLAST_MONITORED: TDateField;
+    DepartmentsEXCLUDE_FROM_REPORTING: TSmallintField;
+    DepartmentsCURRENCY: TStringField;
+    DepartmentsSINGULAR_UNITDESC: TStringField;
+    DepartmentsPLURAL_UNITDESC: TStringField;
+    DepartmentsLASTDAYOFWEEK: TSmallintField;
+    DepartmentsCURRENTPLANSTART: TDateField;
+    DepartmentsCOPIEDFROM: TIntegerField;
+    DepartmentsFIRSTPLANDATE: TDateField;
+    DepartmentsLATESTPLANDATE: TDateField;
+    DepartmentsLASTSUMMARYPERIOD: TIntegerField;
+    DepartmentsCURRENTMONITORINGSTART: TDateField;
+    DepartmentsCURRENTMONITORINGEND: TDateField;
+    DepartmentsFIRSTMONITORINGDATE: TDateField;
+    DepartmentsINVGROUPNAME: TStringField;
+    DepartmentsCURRENTPLANEND: TDateField;
+
+    DepartLUDEPT_ID: TIntegerField;
+
+    DeptRefDEPT_ID: TIntegerField;
+    DeptRefREVENUE_GROUP_NAME: TStringField;
+    DeptRefREPORT_CODE1: TStringField;
+    DeptRefREPORT_CODE2: TStringField;
+    DeptRefLAST_MONITORED: TDateField;
+    DeptRefEXCLUDE_FROM_REPORTING: TSmallintField;
+    DeptRefCURRENCY: TStringField;
+    DeptRefSINGULAR_UNITDESC: TStringField;
+    DeptRefPLURAL_UNITDESC: TStringField;
+
+    DateRangersDEPT_ID: TIntegerField;
+    DateRangersENDDATE: TDateField;
+    DateRangersSTARTDATE: TDateField;
+    DateRangersD_INDEX: TIntegerField;
+
+    DateRefDEPT_ID: TIntegerField;
+    DateRefENDDATE: TDateField;
+    DateRefSTARTDATE: TDateField;
+    DateRefD_INDEX: TIntegerField;
+
+    ActualDataDEPT_ID: TIntegerField;
+    ActualDataACCOUNT_NUMBER: TIntegerField;
+    ActualDataPERIODEND: TDateField;
+    ActualDataBAL: TBCDField;
+
+    ActualDataLUDEPT_ID: TIntegerField;
+    ActualDataLUACCOUNT_NUMBER: TIntegerField;
+    ActualDataLUPERIODEND: TDateField;
+    ActualDataLUBAL: TBCDField;
+
+    PlanDataDEPT_ID: TIntegerField;
+    PlanDataACCOUNT_NUMBER: TIntegerField;
+    PlanDataD_YEAR: TIntegerField;
+    PlanDataD_TYPE: TSmallintField;
+    PlanDataD_BALS: TBlobField;
+
+    MonitoringDataDEPT_ID: TIntegerField;
+    MonitoringDataACCOUNT_NUMBER: TIntegerField;
+    MonitoringDataD_YEAR: TIntegerField;
+    MonitoringDataD_TYPE: TSmallintField;
+    MonitoringDataD_BALS: TBlobField;
+
+    MonitoringDataLUDEPT_ID: TIntegerField;
+    MonitoringDataLUACCOUNT_NUMBER: TIntegerField;
+    MonitoringDataLUD_YEAR: TIntegerField;
+    MonitoringDataLUD_TYPE: TSmallintField;
+    MonitoringDataLUD_BALS: TBlobField;
+
+    QuotesDEPT_ID: TIntegerField;
+    QuotesQUOTE_NUMBER: TStringField;
+    QuotesCUSTOMERNAME: TStringField;
+    QuotesQ_DATE: TDateField;
+    QuotesQ_VALUE: TBCDField;
+    QuotesQ_MATERIALS: TBCDField;
+    QuotesQ_SUBCONTRACTORS: TBCDField;
+    QuotesTARGETUNITS: TBCDField;
+
+    QuotesLUDEPT_ID: TIntegerField;
+    QuotesLUQUOTE_NUMBER: TStringField;
+    QuotesLUCUSTOMERNAME: TStringField;
+    QuotesLUQ_DATE: TDateField;
+    QuotesLUQ_VALUE: TBCDField;
+    QuotesLUQ_MATERIALS: TBCDField;
+    QuotesLUQ_SUBCONTRACTORS: TBCDField;
+    QuotesLUTARGETUNITS: TBCDField;
+
+    ActualInvoiceDetails: TIBOTable;
+    ActualInvoiceDetailsDEPT_ID: TIntegerField;
+    ActualInvoiceDetailsINVOICETYPE: TIntegerField;
+    ActualInvoiceDetailsINV_DATE: TDateField;
+    ActualInvoiceDetailsINVOICE_ID: TIntegerField;
+    ActualInvoiceDetailsQUOTE_NUMBER: TStringField;
+    ActualInvoiceDetailsINVOICE_NUMBER: TStringField;
+    ActualInvoiceDetailsNETSALES: TBCDField;
+    ActualInvoiceDetailsMATERIALSATCOST: TBCDField;
+    ActualInvoiceDetailsSUBCONTRACTORS: TBCDField;
+    ActualInvoiceDetailsUNITSREQUIRED: TBCDField;
+    ActualInvoiceDetailsORDERCOMPLETE: TSmallintField;
+    ActualInvoiceDetailsUNITSTORUN: TBCDField;
+    ActualInvoiceDetailsRECORDEDUNITS: TBCDField;
+
+    InvoiceLUDEPT_ID: TIntegerField;
+    InvoiceLUINVOICETYPE: TIntegerField;
+    InvoiceLUINV_DATE: TDateField;
+    InvoiceLUINVOICE_ID: TIntegerField;
+    InvoiceLUQUOTE_NUMBER: TStringField;
+    InvoiceLUINVOICE_NUMBER: TStringField;
+    InvoiceLUNETSALES: TBCDField;
+    InvoiceLUMATERIALSATCOST: TBCDField;
+    InvoiceLUSUBCONTRACTORS: TBCDField;
+    InvoiceLUUNITSREQUIRED: TBCDField;
+    InvoiceLUORDERCOMPLETE: TSmallintField;
+    InvoiceLUUNITSTORUN: TBCDField;
+    InvoiceLURECORDEDUNITS: TBCDField;
+    InvoiceLUGrossProfit: TCurrencyField;
+    InvoiceLUAverageRate: TCurrencyField;
+
+    InvoiceLU2DEPT_ID: TIntegerField;
+    InvoiceLU2INVOICETYPE: TIntegerField;
+    InvoiceLU2INV_DATE: TDateField;
+    InvoiceLU2INVOICE_ID: TIntegerField;
+    InvoiceLU2QUOTE_NUMBER: TStringField;
+    InvoiceLU2INVOICE_NUMBER: TStringField;
+    InvoiceLU2NETSALES: TBCDField;
+    InvoiceLU2MATERIALSATCOST: TBCDField;
+    InvoiceLU2SUBCONTRACTORS: TBCDField;
+    InvoiceLU2UNITSREQUIRED: TBCDField;
+    InvoiceLU2ORDERCOMPLETE: TSmallintField;
+    InvoiceLU2UNITSTORUN: TBCDField;
+    InvoiceLU2RECORDEDUNITS: TBCDField;
+
+    PlandelDEPT_ID: TIntegerField;
+    PlandelD_YEAR: TIntegerField;
+    PlandelD_TYPE: TSmallintField;
+
+    MonitordelDEPT_ID: TIntegerField;
+    MonitordelD_YEAR: TIntegerField;
+    MonitordelD_TYPE: TSmallintField;
+
+    InvQuoteLUDEPT_ID: TIntegerField;
+    InvQuoteLUINVOICETYPE: TIntegerField;
+    InvQuoteLUINV_DATE: TDateField;
+    InvQuoteLUINVOICE_ID: TIntegerField;
+    InvQuoteLUQUOTE_NUMBER: TStringField;
+    InvQuoteLUINVOICE_NUMBER: TStringField;
+    InvQuoteLUNETSALES: TBCDField;
+    InvQuoteLUMATERIALSATCOST: TBCDField;
+    InvQuoteLUSUBCONTRACTORS: TBCDField;
+    InvQuoteLUUNITSREQUIRED: TBCDField;
+    InvQuoteLUORDERCOMPLETE: TSmallintField;
+    InvQuoteLUUNITSTORUN: TBCDField;
+    InvQuoteLURECORDEDUNITS: TBCDField;

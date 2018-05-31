@@ -1,0 +1,218 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.8964.0 (52111dd4).
+//
+// d:\qb12sdkcd\samples\vc\debug\QBXMLRP.tlh
+//
+// C++ source equivalent of Win32 type library D:\QuickBooks\qbexe\uk\QBXMLRP.dll
+// compiler-generated file created 02/21/03 at 16:46:25 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace QBXMLRPLib {
+
+//
+// Forward references and typedefs
+//
+
+struct /* coclass */ RequestProcessor;
+struct __declspec(uuid("ac48eb1d-e953-446b-a63c-77e7862de4b8"))
+/* dual interface */ IRequestProcessor2;
+struct __declspec(uuid("2d0e74b5-021a-11d5-9054-00508bf70a94"))
+/* interface */ IRequestProcessor;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IRequestProcessor2, __uuidof(IRequestProcessor2));
+_COM_SMARTPTR_TYPEDEF(IRequestProcessor, __uuidof(IRequestProcessor));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("2d0e74b6-021a-11d5-9054-00508bf70a94"))
+RequestProcessor;
+    // [ default ] interface IRequestProcessor2
+    // interface IRequestProcessor
+
+struct __declspec(uuid("ac48eb1d-e953-446b-a63c-77e7862de4b8"))
+IRequestProcessor2 : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetMajorVersion))
+    short MajorVersion;
+    __declspec(property(get=GetMinorVersion))
+    short MinorVersion;
+    __declspec(property(get=GetReleaseLevel))
+    enum QBXMLRPReleaseLevel ReleaseLevel;
+    __declspec(property(get=GetReleaseNumber))
+    short ReleaseNumber;
+    __declspec(property(get=GetQBXMLVersionsForSession))
+    SAFEARRAY * QBXMLVersionsForSession[];
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t ProcessRequest (
+        _bstr_t ticket,
+        _bstr_t inputRequest );
+    HRESULT OpenConnection (
+        _bstr_t appID,
+        _bstr_t appName );
+    HRESULT CloseConnection ( );
+    _bstr_t BeginSession (
+        _bstr_t qbFileName,
+        enum QBFileMode reqFileMode );
+    HRESULT EndSession (
+        _bstr_t ticket );
+    _bstr_t GetCurrentCompanyFileName (
+        _bstr_t ticket );
+    short GetMajorVersion ( );
+    short GetMinorVersion ( );
+    enum QBXMLRPReleaseLevel GetReleaseLevel ( );
+    short GetReleaseNumber ( );
+    SAFEARRAY * GetQBXMLVersionsForSession (
+        _bstr_t ticket );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_ProcessRequest (
+        BSTR ticket,
+        BSTR inputRequest,
+        BSTR * outputResponse ) = 0;
+    virtual HRESULT __stdcall raw_OpenConnection (
+        BSTR appID,
+        BSTR appName ) = 0;
+    virtual HRESULT __stdcall raw_CloseConnection ( ) = 0;
+    virtual HRESULT __stdcall raw_BeginSession (
+        BSTR qbFileName,
+        enum QBFileMode reqFileMode,
+        BSTR * pTicket ) = 0;
+    virtual HRESULT __stdcall raw_EndSession (
+        BSTR ticket ) = 0;
+    virtual HRESULT __stdcall raw_GetCurrentCompanyFileName (
+        BSTR ticket,
+        BSTR * pFileName ) = 0;
+    virtual HRESULT __stdcall get_MajorVersion (
+        short * pMajorVersion ) = 0;
+    virtual HRESULT __stdcall get_MinorVersion (
+        short * pMinorVersion ) = 0;
+    virtual HRESULT __stdcall get_ReleaseLevel (
+        enum QBXMLRPReleaseLevel * pReleaseLevel ) = 0;
+    virtual HRESULT __stdcall get_ReleaseNumber (
+        short * pReleaseNumber ) = 0;
+    virtual HRESULT __stdcall get_QBXMLVersionsForSession (
+        BSTR ticket,
+        SAFEARRAY * * ppsa ) = 0;
+};
+
+enum QBFileMode
+{
+    qbFileOpenSingleUser = 0,
+    qbFileOpenMultiUser = 1,
+    qbFileOpenDoNotCare = 2
+};
+
+enum QBXMLRPReleaseLevel
+{
+    preAlpha = 0,
+    alpha = 1,
+    beta = 2,
+    release = 3
+};
+
+struct __declspec(uuid("2d0e74b5-021a-11d5-9054-00508bf70a94"))
+IRequestProcessor : IUnknown
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetMajorVersion))
+    short MajorVersion;
+    __declspec(property(get=GetMinorVersion))
+    short MinorVersion;
+    __declspec(property(get=GetReleaseLevel))
+    enum QBXMLRPReleaseLevel ReleaseLevel;
+    __declspec(property(get=GetReleaseNumber))
+    short ReleaseNumber;
+    __declspec(property(get=GetQBXMLVersionsForSession))
+    SAFEARRAY * QBXMLVersionsForSession[];
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t ProcessRequest (
+        _bstr_t ticket,
+        _bstr_t inputRequest );
+    HRESULT OpenConnection (
+        _bstr_t appID,
+        _bstr_t appName );
+    HRESULT CloseConnection ( );
+    _bstr_t BeginSession (
+        _bstr_t qbFileName,
+        enum QBFileMode reqFileMode );
+    HRESULT EndSession (
+        _bstr_t ticket );
+    _bstr_t GetCurrentCompanyFileName (
+        _bstr_t ticket );
+    short GetMajorVersion ( );
+    short GetMinorVersion ( );
+    enum QBXMLRPReleaseLevel GetReleaseLevel ( );
+    short GetReleaseNumber ( );
+    SAFEARRAY * GetQBXMLVersionsForSession (
+        _bstr_t ticket );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall raw_ProcessRequest (
+        BSTR ticket,
+        BSTR inputRequest,
+        BSTR * outputResponse ) = 0;
+    virtual HRESULT __stdcall raw_OpenConnection (
+        BSTR appID,
+        BSTR appName ) = 0;
+    virtual HRESULT __stdcall raw_CloseConnection ( ) = 0;
+    virtual HRESULT __stdcall raw_BeginSession (
+        BSTR qbFileName,
+        enum QBFileMode reqFileMode,
+        BSTR * pTicket ) = 0;
+    virtual HRESULT __stdcall raw_EndSession (
+        BSTR ticket ) = 0;
+    virtual HRESULT __stdcall raw_GetCurrentCompanyFileName (
+        BSTR ticket,
+        BSTR * pFileName ) = 0;
+    virtual HRESULT __stdcall get_MajorVersion (
+        short * pMajorVersion ) = 0;
+    virtual HRESULT __stdcall get_MinorVersion (
+        short * pMinorVersion ) = 0;
+    virtual HRESULT __stdcall get_ReleaseLevel (
+        enum QBXMLRPReleaseLevel * pReleaseLevel ) = 0;
+    virtual HRESULT __stdcall get_ReleaseNumber (
+        short * pReleaseNumber ) = 0;
+    virtual HRESULT __stdcall get_QBXMLVersionsForSession (
+        BSTR ticket,
+        SAFEARRAY * * ppsa ) = 0;
+};
+
+//
+// Wrapper method implementations
+//
+
+#include "d:\qb12sdkcd\samples\vc\debug\QBXMLRP.tli"
+
+} // namespace QBXMLRPLib
+
+#pragma pack(pop)

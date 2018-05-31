@@ -1,0 +1,131 @@
+[Compiler]
+A=1
+B=0
+C=1
+D=1
+E=0
+F=0
+G=1
+H=1
+I=1
+J=1
+K=0
+L=1
+M=0
+N=1
+O=1
+P=1
+Q=0
+R=0
+S=0
+T=0
+U=0
+V=1
+W=0
+X=1
+Y=1
+Z=1
+ShowHints=1
+ShowWarnings=1
+UnitAliases=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+[Linker]
+MapFile=0
+OutputObjs=0
+ConsoleApp=1
+DebugInfo=0
+RemoteSymbols=0
+MinStackSize=16384
+MaxStackSize=1048576
+ImageBase=4194304
+ExeDescription=
+[Directories]
+OutputDir=
+UnitOutputDir=
+PackageDLLOutputDir=
+PackageDCPOutputDir=
+SearchPath=C:\Program Files\Opus\DirectAccess\Lib\Delphi5;C:\Program Files\TeeChart Pro v5 Full Source Code\Sources
+Packages=Vcl50;Vclx50;VclSmp50;Vcldb50;Vclbde50;ibevnt50;vcldbx50;vclie50;Inetdb50;Inet50;NMFast50;dclocx50;dclaxserver50;A258_R50;M103_r50;O217_R50;ip50_d5;Tee45;TeePro45;S201DR50;Auchmisc;NDIntraWeb20D5;NDIntraWeb20D5
+Conditionals=
+DebugSourceDirs=
+UsePackages=0
+[Parameters]
+RunParams=
+HostApplication=
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=3081
+CodePage=1252
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+[HistoryLists\hlDebugSourcePath]
+Count=2
+Item0=C:\Program Files\Woll2Woll\1stClass_D5\source\
+Item1=C:\Program Files\Woll2Woll\1stClass_D5\source\;c:\program files\opus\directaccess\lib\src;c:\program files\opus\directaccess\src;c:\program files\opus\directaccess\lib\src\DAO
+[HistoryLists\hlConditionals]
+Count=5
+Item0=TextDebug;
+Item1=TextDebug
+Item2=DebugText
+Item3=DAOLog;DAOCheck;TextDebug
+Item4=DAOLog;DAOCheck
+[HistoryLists\hlUnitAliases]
+Count=2
+Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+Item1=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE
+[HistoryLists\hlSearchPath]
+Count=27
+Item0=C:\Program Files\Opus\DirectAccess\Lib\Delphi5;C:\Program Files\TeeChart Pro v5 Full Source Code\Sources
+Item1=c:\program files\opus\directaccess\lib\delphi5;$(DELPHI)\Lib\Debug;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx;d:\hfw\cmpt\dtools3;D:\HA\help\LyncupHlp;C:\Program Files\Woll2Woll\ip2000d5\source;C:\Program Files\Woll2Woll\1stClass_D5\lib;C:\Program Files\TeeChart Pro v5 Full Source Code\Sources
+Item2=c:\program files\opus\directaccess\lib\delphi5;$(DELPHI)\Lib\Debug;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;C:\Program Files\TeeChart Pro v4 for Delphi 5\Source Code;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx;d:\hfw\cmpt\dtools3;D:\HA\help\LyncupHlp;C:\Program Files\Woll2Woll\ip2000d5\source;C:\Program Files\Woll2Woll\1stClass_D5\lib
+Item3=c:\program files\opus\directaccess\lib\delphi5;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;C:\Program Files\TeeChart Pro v4 for Delphi 5\Source Code;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx;d:\hfw\cmpt\dtools3;D:\HA\help\LyncupHlp;C:\Program Files\Woll2Woll\ip2000d5\source;C:\Program Files\Woll2Woll\1stClass_D5\lib
+Item4=c:\program files\opus\directaccess\lib\delphi5;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;C:\Program Files\TeeChart Pro v4 for Delphi 5\Source Code;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx;d:\hfw\cmpt\dtools3;D:\HA\help\LyncupHlp;C:\Program Files\Woll2Woll\ip2000d5\source
+Item5=c:\program files\opus\directaccess\lib\delphi5;$(DELPHI)\Lib\Debug;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;C:\Program Files\TeeChart Pro v4 for Delphi 5\Source Code;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx;d:\hfw\cmpt\dtools3;D:\HA\help\LyncupHlp;C:\Program Files\Woll2Woll\ip2000d5\source
+Item6=$(DELPHI)\Lib\Debug;c:\program files\opus\directaccess\lib\delphi5;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;C:\Program Files\TeeChart Pro v4 for Delphi 5\Source Code;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx;d:\hfw\cmpt\dtools3;D:\HA\help\LyncupHlp;C:\Program Files\Woll2Woll\ip2000d5\source
+Item7=c:\program files\opus\directaccess\lib\delphi5;c:\program files\opus\directaccess\lib\src;c:\program files\opus\directaccess\lib\src\DAO;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;C:\Program Files\TeeChart Pro v4 for Delphi 5\Source Code;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx;d:\hfw\cmpt\dtools3;D:\HA\help\LyncupHlp;C:\Program Files\Woll2Woll\ip2000d5\source
+Item8=c:\program files\opus\directaccess\lib\delphi5;c:\program files\opus\directaccess\lib\src;c:\program files\opus\directaccess\lib\src\DAO;c:\program files\opus\directaccess\src;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;C:\Program Files\TeeChart Pro v4 for Delphi 5\Source Code;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx;d:\hfw\cmpt\dtools3;D:\HA\help\LyncupHlp;C:\Program Files\Woll2Woll\ip2000d5\source
+Item9=c:\program files\opus\directaccess\lib\delphi5;c:\program files\opus\directaccess\lib\src;c:\program files\opus\directaccess\lib\src\DAO;c:\program files\opus\directaccess\src;$(DELPHI)\Lib\Debug;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;C:\Program Files\TeeChart Pro v4 for Delphi 5\Source Code;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx;d:\hfw\cmpt\dtools3;D:\HA\help\LyncupHlp;C:\Program Files\Woll2Woll\ip2000d5\source
+Item10=c:\program files\opus\directaccess\lib\delphi5;c:\program files\opus\directaccess\lib\src;c:\program files\opus\directaccess\lib\src\DAO;$(DELPHI)\Lib\Debug;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;C:\Program Files\TeeChart Pro v4 for Delphi 5\Source Code;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx;d:\hfw\cmpt\dtools3;D:\HA\help\LyncupHlp;C:\Program Files\Woll2Woll\ip2000d5\source
+Item11=$(DELPHI)\Lib\Debug;c:\program files\opus\directaccess\lib\delphi5;c:\program files\opus\directaccess\lib\src;c:\program files\opus\directaccess\lib\src\DAO;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;C:\Program Files\TeeChart Pro v4 for Delphi 5\Source Code;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx;d:\hfw\cmpt\dtools3;D:\HA\help\LyncupHlp;C:\Program Files\Woll2Woll\ip2000d5\source
+Item12=c:\program files\opus\directaccess\lib\delphi5;c:\program files\opus\directaccess\lib\src;c:\program files\opus\directaccess\lib\src\DAO;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;C:\Program Files\TeeChart Pro v4 for Delphi 5\Source Code;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx;d:\hfw\cmpt\dtools3;D:\HA\help\StratacomHlp;C:\Program Files\Woll2Woll\ip2000d5\source
+Item13=c:\program files\opus\directaccess\lib\delphi5;c:\program files\opus\directaccess\lib\src;$(DELPHI)\Lib\Debug;c:\program files\opus\directaccess\lib\src\DAO;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;C:\Program Files\TeeChart Pro v4 for Delphi 5\Source Code;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx;d:\hfw\cmpt\dtools3;D:\HA\help\StratacomHlp;C:\Program Files\Woll2Woll\ip2000d5\source
+Item14=c:\program files\opus\directaccess\lib\delphi5;c:\program files\opus\directaccess\lib\src;$(DELPHI)\Lib\Debug;c:\program files\opus\directaccess\lib\src\DAO;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;C:\Program Files\TeeChart Pro v4 for Delphi 5\Source Code;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx;d:\hfw\cmpt\dtools3;D:\HA\help\StratacomHlp
+Item15=c:\program files\opus\directaccess\lib\delphi5;c:\program files\opus\directaccess\lib\src;c:\program files\opus\directaccess\lib\src\DAO;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;C:\Program Files\TeeChart Pro v4 for Delphi 5\Source Code;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx;d:\hfw\cmpt\dtools3;D:\HA\help\StratacomHlp
+Item16=C:\Program Files\Opus\DirectAccess\Lib\Delphi5;$(DELPHI)\Lib\Debug
+Item17=C:\Program Files\Opus\DirectAccess\Lib\Delphi5
+Item18=c:\program files\opus\directaccess\lib\delphi5;c:\program files\opus\directaccess\lib\src;c:\program files\opus\directaccess\lib\src\DAO;$(DELPHI)\Lib\Debug;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;C:\Program Files\TeeChart Pro v4 for Delphi 5\Source Code;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx;d:\hfw\cmpt\dtools3;D:\HA\help\StratacomHlp
+Item19=c:\program files\opus\directaccess\lib\delphi5;c:\program files\opus\directaccess\lib\src;c:\program files\opus\directaccess\lib\src\DAO;$(DELPHI)\Lib\Debug;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;C:\Program Files\TeeChart Pro v4 for Delphi 5\Source Code;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx;d:\hfw\cmpt\dtools3
+Item20=c:\program files\opus\directaccess\lib\delphi5;c:\program files\opus\directaccess\lib\src;c:\program files\opus\directaccess\lib\src\DAO;$(DELPHI)\Lib\Debug;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;C:\Program Files\TeeChart Pro v4 for Delphi 5\Source Code;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx;d:\hfw\cmpt\dtools
+Item21=c:\program files\opus\directaccess\lib\delphi5;c:\program files\opus\directaccess\lib\src;c:\program files\opus\directaccess\lib\src\DAO;$(DELPHI)\Lib\Debug;D:\hfw\cmpt\Auch;d:\hfw\cmpt\epc;$(DELPHI)\lib\delphi2;C:\Program Files\TeeChart Pro v4 for Delphi 5\Source Code;d:\cdk5;d:\hfw\include;d:\hfw\cmpt\Ui;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;D:\hfw\cmpt\HighGear;$(DELPHI)\magchint\delphi5;$(DELPHI)\cwcalendar;d:\hfw\cmpt\rx
+Item22=d:\beu\accessdb;d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;d:\hfw\cmpt\auch;d:\hfw\cmpt\Ui
+Item23=d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;d:\hfw\cmpt\auch;d:\hfw\cmpt\Ui;d:\beu\accessdb
+Item24=d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;d:\hfw\cmpt\auch;d:\hfw\cmpt\Ui
+Item25=d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr;d:\hfw\cmpt\auch
+Item26=d:\hfw\cmpt\Orpheus;d:\hfw\cmpt\srmgr
+[HistoryLists\hlUnitOutputDirectory]
+Count=1
+Item0=\hfw\dcu\cmpt
+[HistoryLists\hlOutputDirectorry]
+Count=1
+Item0=d:\HA
+[HistoryLists\hlBPLOutput]
+Count=1
+Item0=d:\hfw\dcu\cmpt

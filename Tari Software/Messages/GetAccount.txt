@@ -1,0 +1,134 @@
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2005):   CFREngine.GetAccountRec(CASH_AT_BANK, ReportRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2018):   CashAccountOut(CFREngine.GetAccountRec(CASH_RECEIPTS_AR, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2019):   CashAccountOut(CFREngine.GetAccountRec(MARKET_SEC_SALES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2020):   CashAccountOut(CFREngine.GetAccountRec(OTHER_ASSETS_SALES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2021):   CashAccountOut(CFREngine.GetAccountRec(NON_DEP_ASSET_SALES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2022):   CashAccountOut(CFREngine.GetAccountRec(DEP_ASSET_SALES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2023):   CashAccountOut(CFREngine.GetAccountRec(INTANG_ASSET_SALES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2024):   CashAccountOut(CFREngine.GetAccountRec(OTHER_LIAB_INCURRED, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2025):   CashAccountOut(CFREngine.GetAccountRec(EQUITY_INJECTED, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2026):   CashAccountOut(CFREngine.GetAccountRec(LOANS_INCURRED, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2027):   CashAccountOut(CFREngine.GetAccountRec(AR_ADJUSTMENTS, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2028):   CashAccountOut(CFREngine.GetAccountRec(ST_ADJUSTMENTS, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2029):   CashAccountOut(CFREngine.GetAccountRec(OTHERINCOME, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2044):   CashAccountOut(CFREngine.GetAccountRec(CASH_PAYMENTS_AP, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2045):   CashAccountOut(CFREngine.GetAccountRec(CASH_PAYMENTS_AE, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2046):   CashAccountOut(CFREngine.GetAccountRec(CASH_MAN_DEPOSITS, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2047):   CashAccountOut(CFREngine.GetAccountRec(MARKET_SEC_PURCHASES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2048):   CashAccountOut(CFREngine.GetAccountRec(OTHER_ASSETS_PURCHASES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2049):   CashAccountOut(CFREngine.GetAccountRec(NON_DEP_ASSET_PURCHASES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2050):   CashAccountOut(CFREngine.GetAccountRec(DEP_ASSET_PURCHASES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2051):   CashAccountOut(CFREngine.GetAccountRec(INTANG_ASSET_PURCHASES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2052):   CashAccountOut(CFREngine.GetAccountRec(TAXPAID_REFUND, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2053):   CashAccountOut(CFREngine.GetAccountRec(INC_TAX_PAID, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2054):   CashAccountOut(CFREngine.GetAccountRec(DIV_PAID, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2055):   CashAccountOut(CFREngine.GetAccountRec(OTHER_LIAB_PAID, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2056):   CashAccountOut(CFREngine.GetAccountRec(LOANS_REPAID, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2057):   CashAccountOut(CFREngine.GetAccountRec(EQUITY_WITHDRAWN, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2058):   CashAccountOut(CFREngine.GetAccountRec(AP_ADJUSTMENTS, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2059):   CashAccountOut(CFREngine.GetAccountRec(AE_ADJUSTMENTS, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2060):   CashAccountOut(CFREngine.GetAccountRec(TAX_ADJUSTMENTS, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2065):   CFREngine.GetAccountRec(CASH_AT_BANK, ReportRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2437):   CFREngine.GetAccountRec(ACCOUNT_REC, MainRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2451):     CashAccountOut('Add: ', CFREngine.GetAccountRec(TOTAL_GROSS_SALES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2452):     CashAccountOut('Less: ', CFREngine.GetAccountRec(CASH_RECEIPTS_AR, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2453):     CashAccountOut('Less: ', CFREngine.GetAccountRec(AR_ADJUSTMENTS, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2454):     CashAccountOut('Less: ', CFREngine.GetAccountRec(AR_WRITEOFF, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2462):     CFREngine.GetAccountRec(AR_DAYS, ReportRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2466):     CFREngine.GetAccountRec(TAX_ON_SALES, MainRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2472):       CashAccountOut('', CFREngine.GetAccountRec(SALES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2475):       CashAccountOut('= ', CFREngine.GetAccountRec(TOTAL_GROSS_SALES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2487):   CFREngine.GetAccountRec(STOCK, MainRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2501):     CashAccountOut('Add: ', CFREngine.GetAccountRec(STOCK_DELIVERIES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2502):     CashAccountOut('Less: ', CFREngine.GetAccountRec(STOCK_SOLD, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2503):     CashAccountOut('Less: ', CFREngine.GetAccountRec(ST_ADJUSTMENTS, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2504):     CashAccountOut('Less: ', CFREngine.GetAccountRec(ST_WRITEOFF, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2512):     CFREngine.GetAccountRec(STOCK_DAYS, ReportRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2525):   CFREngine.GetAccountRec(ACCOUNT_PAY, MainRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2539):     CashAccountOut('Add: ', CFREngine.GetAccountRec(TOTAL_AP_INVOICES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2540):     CashAccountOut('Less: ', CFREngine.GetAccountRec(CASH_PAYMENTS_AP, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2541):     CashAccountOut('Less: ', CFREngine.GetAccountRec(AP_ADJUSTMENTS, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2549):     CFREngine.GetAccountRec(AP_DAYS, ReportRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2553):     if hasBalance(CFREngine.GetAccountRec(GROSS_STOCK_PURCHASES, ReportRec)) and
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2554):       (HasBalance(CFREngine.GetAccountRec(GROSS_SUBCONTRACTORS, ReportRec)) or
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2555):        HasBalance(CFREngine.GetAccountRec(GROSS_EXPENSES_VIA_AP, ReportRec))) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2557):       if HasBalance(CFREngine.GetAccountRec(TAX_ON_STOCK_DELIVERIES, ReportRec)) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2562):         CashAccountOut('', CFREngine.GetAccountRec(STOCK_DELIVERIES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2563):         CashAccountOut('Add: ', CFREngine.GetAccountRec(TAX_ON_STOCK_DELIVERIES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2565):         CashAccountOut('= ', CFREngine.GetAccountRec(GROSS_STOCK_PURCHASES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2568):         CashAccountOut('', CFREngine.GetAccountRec(GROSS_STOCK_PURCHASES, ReportRec), Metrics.tmheight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2569):       CashAccountOut('Add: ', CFREngine.GetAccountRec(GROSS_SUBCONTRACTORS, ReportRec), Metrics.tmheight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2570):       CashAccountOut('Add: ', CFREngine.GetAccountRec(GROSS_EXPENSES_VIA_AP, ReportRec), Metrics.tmheight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2572):       CashAccountOut('= ', CFREngine.GetAccountRec(TOTAL_AP_INVOICES, ReportRec), Metrics.tmheight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2583):   CFREngine.GetAccountRec(ACCRUED_EXPENSES, MainRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2597):     CashAccountOut('Add: ', CFREngine.GetAccountRec(GROSS_EXPENSES_ACCRUED, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2598):     CashAccountOut('Less: ', CFREngine.GetAccountRec(CASH_PAYMENTS_AE, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2599):     CashAccountOut('Less: ', CFREngine.GetAccountRec(AE_ADJUSTMENTS, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2607):     CFREngine.GetAccountRec(AP_DAYS, ReportRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2618):   if (Not Result) and (Not SectionPrinted[5]) and (HasBalance(CFREngine.GetAccountRec(TAX_EXPENSES_VIA_AP, MainRec))
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2619):    or HasBalance(CFREngine.GetAccountRec(TAX_EXPENSES_ACCRUED, ReportRec))) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2634):       CashAccountOut('', CFREngine.GetAccountRec(NET_EXPENSES_VIA_AP, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2637):       CashAccountOut('= ', CFREngine.GetAccountRec(GROSS_EXPENSES_VIA_AP, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2639):     if HasBalance(CFREngine.GetAccountRec(TAX_EXPENSES_ACCRUED, MainRec)) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2644):       CashAccountOut('', CFREngine.GetAccountRec(NET_EXPENSES_ACCRUED, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2647):       CashAccountOut('= ', CFREngine.GetAccountRec(GROSS_EXPENSES_ACCRUED, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2656):   CFREngine.GetAccountRec(TAX_PAYABLE, MainRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2681):       CFREngine.GetAccountRec(TOTAL_TAX_COLLECTED, MainRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2687):       CFREngine.GetAccountRec(TOTAL_TAX_PAID, MainRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2699):       CashAccountOut('', CFREngine.GetAccountRec(TOTAL_TAX_COLLECTED, MainRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2705):       CashAccountOut('', CFREngine.GetAccountRec(TAX_ON_STOCK_DELIVERIES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2706):       CashAccountOut('', CFREngine.GetAccountRec(TAX_ON_SUBCONTRACTORS, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2707):       CashAccountOut('', CFREngine.GetAccountRec(TAX_EXPENSES_VIA_AP, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2708):       CashAccountOut('', CFREngine.GetAccountRec(TAX_EXPENSES_ACCRUED, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2710):       CashAccountOut('', CFREngine.GetAccountRec(TOTAL_TAX_PAID, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2716):     if HasBalance(CFREngine.GetAccountRec(TAX_CASH_TIMING, MainRec)) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2721):     CashAccountOut('Less: ', CFREngine.GetAccountRec(TAXPAID_REFUND, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2723):     CashAccountOut('Less: ', CFREngine.GetAccountRec(TAX_ADJUSTMENTS, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2724):     CFREngine.GetAccountRec(TAX_PAYABLE, ReportRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2742):       CashAccountOut('Add: ', CFREngine.GetAccountRec(TAX_ON_SALES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2744):       CashAccountOut('Less: ', CFREngine.GetAccountRec(TAX_ON_STOCK_DELIVERIES, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2745):       CashAccountOut('Less: ', CFREngine.GetAccountRec(TAX_ON_SUBCONTRACTORS, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2746):       CashAccountOut('Less: ', CFREngine.GetAccountRec(TAX_EXPENSES_VIA_AP, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2747):       CashAccountOut('Less: ', CFREngine.GetAccountRec(TAX_EXPENSES_ACCRUED, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2752):       CFREngine.GetAccountRec(TOTAL_TAX_COLLECTED, MainRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2753):       CFREngine.GetAccountRec(TOTAL_TAX_PAID, ReportRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2759):       CFREngine.GetAccountRec(TAX_CASH_TIMING, MainRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3169):   CFREngine.GetAccountRec(EQUITY, EquityRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3193):     if BSAccountOut(CFREngine.GetAccountRec(CASH_AT_BANK, ReportRec), Metrics.tmHeight) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3195):     if BSAccountOut(CFREngine.GetAccountRec(ACCOUNT_REC, ReportRec), Metrics.tmHeight) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3197):     if BSAccountOut(CFREngine.GetAccountRec(STOCK, ReportRec), Metrics.tmHeight) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3199):     if BSAccountOut(CFREngine.GetAccountRec(CASH_MAN_FUND, ReportRec), Metrics.tmHeight) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3201):     if BSAccountOut(CFREngine.GetAccountRec(MARKETSEC, ReportRec), Metrics.tmHeight) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3203):     if BSAccountOut(CFREngine.GetAccountRec(OTHER_CURRENT_ASSETS, ReportRec), Metrics.tmHeight) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3228):     if BSAccountOut(CFREngine.GetAccountRec(NON_DEP_ASSETS, ReportRec), Metrics.tmHeight) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3230):     if BSAccountOut(CFREngine.GetAccountRec(DEP_ASSETS, ReportRec), Metrics.tmHeight) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3232):     if BSAccountOut(CFREngine.GetAccountRec(INTANG_ASSETS, ReportRec), Metrics.tmHeight) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3259):     if BSAccountOut(CFREngine.GetAccountRec(BANK_OVERDRAFT, ReportRec), Metrics.tmHeight) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3261):     if BSAccountOut(CFREngine.GetAccountRec(ACCOUNT_PAY, ReportRec), Metrics.tmHeight) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3263):     if BSAccountOut(CFREngine.GetAccountRec(ACCRUED_EXPENSES, ReportRec), Metrics.tmHeight) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3265):     if BSAccountOut(CFREngine.GetAccountRec(TAX_PAYABLE, ReportRec), Metrics.tmHeight) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3267):     if BSAccountOut(CFREngine.GetAccountRec(TAX_CASH_TIMING, ReportRec), Metrics.tmHeight) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3269):     if BSAccountOut(CFREngine.GetAccountRec(INC_TAX_PAYABLE, ReportRec), Metrics.tmHeight) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3271):     if BSAccountOut(CFREngine.GetAccountRec(DIVIDENDS_PAYABLE, ReportRec), Metrics.tmHeight) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3273):     if BSAccountOut(CFREngine.GetAccountRec(OTHER_CURRENT_LIAB, ReportRec), Metrics.tmHeight) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3300):     if BSAccountOut(CFREngine.GetAccountRec(LOANS, ReportRec), Metrics.tmHeight) then
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3347):     CFREngine.GetAccountRec(NETPROFIT, ReportRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3348):     CFREngine.GetAccountRec(NETPROFIT, ReportARec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3375):     CashAccountOut('Add: ', CFREngine.GetAccountRec(NETPROFIT, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3376):     CashAccountOut('Less: ', CFREngine.GetAccountRec(INC_TAX_INCURRED, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3377):     CashAccountOut('Less: ', CFREngine.GetAccountRec(DIV_DECLARED, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3378):     CashAccountOut('Add: ', CFREngine.GetAccountRec(EQUITY_INJECTED, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3379):     CashAccountOut('Less: ', CFREngine.GetAccountRec(EQUITY_WITHDRAWN, ReportRec), Metrics.tmHeight);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3415):     CFREngine.GetAccountRec(STOCK, ReportRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3427):     CFREngine.GetAccountRec(CASH_AT_BANK, ReportRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3428):     CFREngine.GetAccountRec(CASH_MAN_FUND, ReportARec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3429):     CFREngine.GetAccountRec(MARKETSEC, ReportBRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3446):     CFREngine.GetAccountRec(SALES, ReportRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3459):     CFREngine.GetAccountRec(LOANS, ReportRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3513):     CFREngine.GetAccountRec(SALES, ReportRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3770):   CFREngine.GetAccountRec(EQUITY, EquityRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3771):   CFREngine.GetAccountRec(EQUITY_INJECTED, EquityInjectedRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3772):   CFREngine.GetAccountRec(EQUITY_WITHDRAWN, EquityWithdrawnRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3773):   CFREngine.GetAccountRec(INC_TAX_INCURRED, IncTaxIncurredRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3774):   CFREngine.GetAccountRec(DIV_DECLARED, DividendDeclaredRec);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3775):   CFREngine.GetAccountRec(NETPROFIT, NPRec);

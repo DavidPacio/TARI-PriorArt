@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<?qbxml version="OZ2.0"?>
+<QBXML>
+  <QBXMLMsgsRq onError="continueOnError">
+    <InvoiceQueryRq requestID="2" /> 
+  </QBXMLMsgsRq>
+</QBXML>

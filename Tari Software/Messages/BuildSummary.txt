@@ -1,0 +1,54 @@
+D:\Auchinlea\Tari Software\DataCollector.pas(129): function BuildSummary(AccountNo: Integer; UsePlanDates: Boolean; Detail: TDetailedBalArray; var Summary: TSummaryBalArray): Currency;
+D:\Auchinlea\Tari Software\DataCollector.pas(833):   // BuildSummary Data for Plan and Monitoring
+D:\Auchinlea\Tari Software\DataCollector.pas(840):     BuildSummary(ReportDataRec.accountNo, False, ReportDataRec.PlanDetail, ReportDataRec^.PlanSummary);
+D:\Auchinlea\Tari Software\DataCollector.pas(841):     BuildSummary(ReportDataRec.accountNo, False, ReportDataRec.MonDetail, ReportDataRec^.MonSummary);
+D:\Auchinlea\Tari Software\DataCollector.pas(1028):     BuildSummary(ReportDataRec.accountNo, False, ReportDataRec.PlanDetail, ReportDataRec^.PlanSummary);
+D:\Auchinlea\Tari Software\DataCollector.pas(1029):     BuildSummary(ReportDataRec.accountNo, False, ReportDataRec.MonDetail, ReportDataRec^.MonSummary);
+D:\Auchinlea\Tari Software\DataCollector.pas(2583):   BuildSummary(PlanDataTotalRec.accountNo, True, PlanDataTotalRec.PlanDetail, PlanDataTotalRec^.PlanSummary);
+D:\Auchinlea\Tari Software\DataCollector.pas(2587):     BuildSummary(PlanExpDataRec.accountNo, True, PlanExpDataRec.PlanDetail, PlanExpDataRec^.PlanSummary);
+D:\Auchinlea\Tari Software\DataCollector.pas(3864): function BuildSummary(AccountNo: Integer; UsePlanDates: Boolean; Detail: TDetailedBalArray; var Summary: TSummaryBalArray): Currency;
+D:\Auchinlea\Tari Software\detailTargets.pas(376):     BuildSummary(PlanDataRec.Accountno, True, PlanDataRec.PlanDetail, PlanDataRec.PlanSummary);
+D:\Auchinlea\Tari Software\detailExpenses.pas(456):     BuildSummary(PlanDataRec.Accountno, True, PlanDataRec.PlanDetail, PlanDataRec.PlanSummary);
+D:\Auchinlea\Tari Software\detailExpenses.pas(458):   BuildSummary(TotalExpensesrec.Accountno, True, TotalExpensesrec.PlanDetail, TotalExpensesrec.PlanSummary);
+D:\Auchinlea\Tari Software\detailExpenses.pas(900):   BuildSummary(RecordPtr.Accountno, True, RecordPtr.PlanDetail, RecordPtr.PlanSummary);
+D:\Auchinlea\Tari Software\detailExpenses.pas(904):   BuildSummary(TotalExpensesRec.Accountno, True, TotalExpensesRec.PlanDetail, TotalExpensesRec.PlanSummary);
+D:\Auchinlea\Tari Software\CashFlowEngine.pas(1068):   BuildSummary(TaxExpensesAERec.Accountno, True, TaxExpensesAERec.PlanDetail, TaxExpensesAERec^.PlanSummary);
+D:\Auchinlea\Tari Software\CashFlowEngine.pas(1069):   BuildSummary(GrossExpensesAccruedRec.Accountno, True, GrossExpensesAccruedRec.PlanDetail, GrossExpensesAccruedRec^.PlanSummary);
+D:\Auchinlea\Tari Software\CashFlowEngine.pas(1070):   BuildSummary(TaxExpensesAPRec.Accountno, True, TaxExpensesAPRec.PlanDetail, TaxExpensesAPRec^.PlanSummary);
+D:\Auchinlea\Tari Software\CashFlowEngine.pas(1071):   BuildSummary(GrossExpviaAPRec.Accountno, True, GrossExpviaAPRec.PlanDetail, GrossExpviaAPRec^.PlanSummary);
+D:\Auchinlea\Tari Software\CashFlowEngine.pas(1072):   BuildSummary(AR_WriteOffRec.Accountno, True, AR_WriteOffRec.PlanDetail, AR_WriteOffRec^.planSummary);
+D:\Auchinlea\Tari Software\CashFlowEngine.pas(1073):   BuildSummary(ST_WriteOffRec.Accountno, True, ST_WriteOffRec.PlanDetail, ST_WriteOffRec^.planSummary);
+D:\Auchinlea\Tari Software\CashFlowEngine.pas(1180):       BuildSummary(CFRecPtr.accountNo, True, CFRecPtr.PlanDetail, CFRecPtr^.planSummary);
+D:\Auchinlea\Tari Software\CashFlowEngine.pas(1190):       BuildSummary(CFRecPtr.accountNo, True, CFRecPtr.PlanDetail, CFRecPtr^.planSummary);
+D:\Auchinlea\Tari Software\CashFlowEngine.pas(1225):   // buildsummary array for sales
+D:\Auchinlea\Tari Software\CashFlowEngine.pas(1226):   BuildSummary(GrossSalesRec.accountNo, True, GrossSalesRec.PlanDetail, GrossSalesRec^.planSummary);
+D:\Auchinlea\Tari Software\CashFlowEngine.pas(1285):   // buildsummary array for sales
+D:\Auchinlea\Tari Software\CashFlowEngine.pas(1286):   BuildSummary(StockSoldRec.accountNo, True, StockSoldRec.PlanDetail, StockSoldRec^.planSummary);
+D:\Auchinlea\Tari Software\CashFlowEngine.pas(1364):   // buildsummary array for sales
+D:\Auchinlea\Tari Software\CashFlowEngine.pas(1368):   BuildSummary(TotalInvoicesAPRec.accountNo, True, TotalInvoicesAPRec.PlanDetail, TotalInvoicesAPRec^.planSummary);
+D:\Auchinlea\Tari Software\CashFlowEngine.pas(1419):   // buildsummary array for sales
+D:\Auchinlea\Tari Software\CashFlowEngine.pas(1420):   BuildSummary(GrossExpensesAccruedRec.accountNo, True, GrossExpensesAccruedRec.PlanDetail, GrossExpensesAccruedRec^.planSummary);
+D:\Auchinlea\Tari Software\CashFlowEdit.pas(193):     BuildSummary(Recordptr[AccRadioGrp.itemIndex].accountNo, True, Recordptr[AccRadioGrp.itemIndex].PlanDetail, Recordptr[AccRadioGrp.itemIndex]^.planSummary);
+D:\Auchinlea\Tari Software\CashFlowEdit.pas(436):     BuildSummary(Recordptr[AccRadioGrp.itemIndex].accountNo, True, Recordptr[AccRadioGrp.itemIndex].PlanDetail, Recordptr[AccRadioGrp.itemIndex]^.planSummary);
+D:\Auchinlea\Tari Software\UltimateWhatif.pas(394):   BuildSummary(NETPROFIT, True, Cashfe.NPAfterTax, BaseProfitBalance);
+D:\Auchinlea\Tari Software\UltimateWhatif.pas(408):   BuildSummary(NETPROFIT, True, Cashfe.NPAfterTax, NewProfitBalance);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(963):     BuildSummary(SummaryPtr.Accountno, True, SummaryPtr.PlanDetail, SummaryPtr.PlanSummary);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(974):     BuildSummary(SummaryPtr.Accountno, True, SummaryPtr.PlanDetail, SummaryPtr.PlanSummary);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(1437):     BuildSummary(SummaryPtr.Accountno, True, SummaryPtr.PlanDetail, SummaryPtr.PlanSummary);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(1844):     BuildSummary(SummaryPtr.Accountno, True, SummaryPtr.PlanDetail, SummaryPtr.PlanSummary);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(1849):     BuildSummary(SummaryPtr.Accountno, True, SummaryPtr.PlanDetail, SummaryPtr.PlanSummary);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2182):   BuildSummary(DataRec.Accountno, True, DataRec.PlanDetail, DataRec.planSummary);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2662):       BuildSummary(Cashfe.TotalTaxCollectedRec.Accountno, True, Cashfe.TotalTaxCollectedRec.PlanDetail, Cashfe.TotalTaxCollectedRec.planSummary);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2666):       BuildSummary(Cashfe.TotalTaxPAidRec.Accountno, True, Cashfe.TotalTaxPaidRec.PlanDetail, Cashfe.TotalTaxPaidRec.planSummary);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(2890):   BuildSummary(DataRec.Accountno, True, DataRec.PlanDetail, DataRec.planSummary);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3315):     BuildSummary(Cashfe.NPrec.Accountno, True, Cashfe.NPrec.PlanDetail, Cashfe.NPrec.planSummary);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3408):     BuildSummary(Cashfe.SalesRec.Accountno, True, Cashfe.SalesRec.PlanDetail, Cashfe.SalesRec.planSummary);
+D:\Auchinlea\Tari Software\TargetPDFReports.pas(3683):   BuildSummary(DataRec.Accountno, True, DataRec.PlanDetail, DataRec.planSummary);
+D:\Auchinlea\Tari Software\TargetDetailGrep.pas(171):       BuildSummary(SummaryPtr.Accountno, True, SummaryPtr.PlanDetail, SummaryPtr.PlanSummary);
+D:\Auchinlea\Tari Software\TargetDetailGrep.pas(194):       BuildSummary(SummaryPtr.Accountno, True, SummaryPtr.PlanDetail, SummaryPtr.PlanSummary);
+D:\Auchinlea\Tari Software\TargetDetailGrep.pas(200):       BuildSummary(SummaryPtr.Accountno, True, SummaryPtr.PlanDetail, SummaryPtr.PlanSummary);
+D:\Auchinlea\Tari Software\MonitoringSales.pas(296):       BuildSummary(SummaryPtr.Accountno, False, SummaryPtr.PlanDetail, SummaryPtr.PlanSummary);
+D:\Auchinlea\Tari Software\MonitoringExpenses.pas(291):       BuildSummary(SummaryPtr.Accountno, False, SummaryPtr.PlanDetail, SummaryPtr.PlanSummary);
+D:\Auchinlea\Tari Software\MonitoringExpenses.pas(338):     BuildSummary(SummaryPtr.Accountno, False, SummaryPtr.PlanDetail, SummaryPtr.PlanSummary);
+D:\Auchinlea\Tari Software\MonitoringOtherIncome.pas(275):     BuildSummary(MonitorOIDataRec.Accountno, False, MonitorOIDataRec.PlanDetail, MonitorOIDataRec.PlanSummary);
+D:\Auchinlea\Tari Software\detailRawTargets.pas(680):     BuildSummary(PlanDataRec.Accountno, True, PlanDataRec.PlanDetail, PlanDataRec.PlanSummary);

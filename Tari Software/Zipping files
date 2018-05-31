@@ -1,0 +1,12 @@
+ HCArchiveZip.BaseDirectory := getHCTransferDir();
+  // Setup ZIP FileName
+  tempDirS := HCArchiveZip.BaseDirectory + '\HC-' + fcdbGen^.diskNameC + '-' + fcdbGen^.clientNameC + '.zip';
+  if fileExists(tempDirS) then
+     DeleteFile(tempDirS);
+  HCArchiveZip.OpenArchive(tempDirS);
+ 
+
+
+  HCArchiveZip.addfiles('*' + fcdbGen^.diskNameC + '.asc', Integer(1));
+  HCArchiveZip.addfiles('*' + fcdbGen^.diskNameC + '.cci', Integer(1));
+  HCArchiveZip.CloseArchive;

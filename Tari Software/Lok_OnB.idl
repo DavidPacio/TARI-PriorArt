@@ -1,0 +1,13 @@
+[
+  uuid(F34FA0B7-60CD-4BA7-85AA-7624248000B3), 
+  version(1.0), 
+  helpstring("Lok_On Library")
+    
+]
+library Lok_OnB
+{
+
+  importlib("stdole2.tlb");
+  importlib("STDVCL40.DLL");
+
+}; 

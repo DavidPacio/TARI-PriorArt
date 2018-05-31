@@ -1,0 +1,385 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{C1392ABB-103E-479D-9A08-3BA17988D238}</ProjectGuid>
+			<MainSource>Tari.dpr</MainSource>
+			<Base>True</Base>
+			<Config Condition="'$(Config)'==''">Release</Config>
+			<TargetedPlatforms>1</TargetedPlatforms>
+			<AppType>Application</AppType>
+			<FrameworkType>VCL</FrameworkType>
+			<ProjectVersion>13.4</ProjectVersion>
+			<Platform Condition="'$(Platform)'==''">Win32</Platform>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Base)'=='true') or '$(Base_Win64)'!=''">
+			<Base_Win64>true</Base_Win64>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+			<Base_Win32>true</Base_Win32>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win32)'!=''">
+			<Cfg_1_Win32>true</Cfg_1_Win32>
+			<CfgParent>Cfg_1</CfgParent>
+			<Cfg_1>true</Cfg_1>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
+			<Cfg_2_Win32>true</Cfg_2_Win32>
+			<CfgParent>Cfg_2</CfgParent>
+			<Cfg_2>true</Cfg_2>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<BRCC_IncludePath>C:\Program Files (x86)\Embarcadero\RAD Studio\10.0\source\IBX;$(BRCC_IncludePath)</BRCC_IncludePath>
+			<Icon_MainIcon>Tari_Icon.ico</Icon_MainIcon>
+			<VerInfo_Release>1</VerInfo_Release>
+			<Manifest_File>None</Manifest_File>
+			<DCC_Define>TextDebug;Advisor;$(DCC_Define)</DCC_Define>
+			<DCC_Alignment>4</DCC_Alignment>
+			<DCC_UnitSearchPath>C:\IBO4;C:\Program Files (x86)\Developer Express.VCL\ExpressSkins Library\Sources;C:\Program Files (x86)\Clever Components\Clever Internet Suite\Delphi XE\Sources;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DCC_ImageBase>00500000</DCC_ImageBase>
+			<DCC_ExeOutput>C:\Program Files\Focus Based Management\TARI for Business</DCC_ExeOutput>
+			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+			<DCC_Description>TARI for Business.exe</DCC_Description>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+			<DCC_WriteableConstants>true</DCC_WriteableConstants>
+			<DCC_Namespace>Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;System;Xml;Data;Datasnap;Web;Soap;Winapi;System.Win;Bde;VclTee;$(DCC_Namespace)</DCC_Namespace>
+			<VerInfo_MajorVer>5</VerInfo_MajorVer>
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_E>false</DCC_E>
+			<VerInfo_Locale>3081</VerInfo_Locale>
+			<DCC_DcuOutput>D:\Auchinlea\Tari Software\AdvisorDCU</DCC_DcuOutput>
+			<DCC_F>false</DCC_F>
+			<DCC_S>false</DCC_S>
+			<DCC_N>true</DCC_N>
+			<DCC_K>false</DCC_K>
+			<DCC_MinStackSize>32768</DCC_MinStackSize>
+			<VerInfo_Keys>CompanyName=Auchinlea Pty Ltd;FileDescription=TARI for Business;FileVersion=5.0.1.0;InternalName=TARI for Business;LegalCopyright=Auchinlea Pty Ltd (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012;LegalTrademarks=;OriginalFilename=;ProductName=TARI for Business;ProductVersion=5.0.1.0;Comments=</VerInfo_Keys>
+			<DCC_UsePackage>Vcl;Vclx;VclSmp;designide;vcldb;bdertl;MagichintD7;dclOffice2k;dsnap;dbrtl;vcldbx;adortl;dsnapcon;dbexpress;vclie;xmlrtl;inet;inetdbbde;inetdbxpress;webdsnap;dbxcds;soaprtl;inetdb;websnap;ibxpress;indy;vclshlctrls;visualclx;visualdbclx;rtl;bindcomp;$(DCC_UsePackage)</DCC_UsePackage>
+			<DCC_MaxStackSize>15728640</DCC_MaxStackSize>
+			<DCC_AssertionsAtRuntime>false</DCC_AssertionsAtRuntime>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DebugSourcePath>.;$(DebugSourcePath)</DebugSourcePath>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base_Win64)'!=''">
+			<DCC_UsePackage>vclactnband;$(DCC_UsePackage)</DCC_UsePackage>
+			<Icon_MainIcon>Tari_Icon.ico</Icon_MainIcon>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base_Win32)'!=''">
+			<VerInfo_Build>1</VerInfo_Build>
+			<VerInfo_MinorVer>2</VerInfo_MinorVer>
+			<DCC_Optimize>false</DCC_Optimize>
+			<DCC_ImportedDataReferences>false</DCC_ImportedDataReferences>
+			<BRCC_IncludePath>C:\Program Files (x86)\kbmMemTable\Source;C:\Program Files (x86)\kbmMW\Source;$(BRCC_IncludePath)</BRCC_IncludePath>
+			<DCC_UsePackage>vclactnband;TeePro916;TeeUI916;Tee916;TeeLanguage916;TeeImage916;TeeWorld916;TeeGL916;TeeDB916;$(DCC_UsePackage)</DCC_UsePackage>
+			<DCC_Namespace>Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;$(DCC_Namespace)</DCC_Namespace>
+			<VerInfo_Locale>1033</VerInfo_Locale>
+			<VerInfo_Keys>CompanyName=Auchinlea Pty Ltd;FileDescription=;FileVersion=5.2.1.1;InternalName=;LegalCopyright=Auchinlea Pty Ltd;LegalTrademarks=TARI;OriginalFilename=Tari.exe;ProductName=Tari for Business;ProductVersion=5.2.1.1;Comments=</VerInfo_Keys>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
+			<VerInfo_Release>2</VerInfo_Release>
+			<VerInfo_Build>3</VerInfo_Build>
+			<VerInfo_MinorVer>3</VerInfo_MinorVer>
+			<DCC_PentiumSafeDivide>false</DCC_PentiumSafeDivide>
+			<DCC_AssertionsAtRuntime>true</DCC_AssertionsAtRuntime>
+			<BRCC_OutputDir>D:\Tari Software\</BRCC_OutputDir>
+			<DCC_ExeOutput>C:\Program Files (x86)\Focus Based Management\TARI for Business\</DCC_ExeOutput>
+			<VerInfo_Keys>CompanyName=Auchinlea Pty Ltd;FileDescription=;FileVersion=5.3.2.3;InternalName=TB;LegalCopyright=Tari for Business;LegalTrademarks=TARI;OriginalFilename=Tari.exe;ProductName=Tari for Business;ProductVersion=5.3.2.1;Comments=</VerInfo_Keys>
+			<VerInfo_Locale>1033</VerInfo_Locale>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<BRCC_OutputDir>D:\Tari Software\</BRCC_OutputDir>
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+			<DCC_Optimize>false</DCC_Optimize>
+			<DCC_GenerateStackFrames>true</DCC_GenerateStackFrames>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+			<VerInfo_Release>2</VerInfo_Release>
+			<VerInfo_MinorVer>3</VerInfo_MinorVer>
+			<VerInfo_Build>1</VerInfo_Build>
+			<DCC_ImageBase>01000000</DCC_ImageBase>
+			<DCC_MaxStackSize>16777216</DCC_MaxStackSize>
+			<DCC_DebugInfoInExe>true</DCC_DebugInfoInExe>
+			<DCC_GenerateStackFrames>false</DCC_GenerateStackFrames>
+			<DCC_PentiumSafeDivide>false</DCC_PentiumSafeDivide>
+			<DCC_DebugInformation>true</DCC_DebugInformation>
+			<DCC_LocalDebugSymbols>true</DCC_LocalDebugSymbols>
+			<DCC_AssertionsAtRuntime>true</DCC_AssertionsAtRuntime>
+			<VerInfo_Keys>CompanyName=Auchinlea Pty Ltd;FileDescription=;FileVersion=5.3.2.1;InternalName=TB;LegalCopyright=Tari for Business;LegalTrademarks=TARI;OriginalFilename=Tari.exe;ProductName=Tari for Business;ProductVersion=5.3.2.1;Comments=</VerInfo_Keys>
+			<DCC_ExeOutput>C:\Program Files (x86)\Focus Based Management\TARI for Business\</DCC_ExeOutput>
+			<VerInfo_Locale>1033</VerInfo_Locale>
+			<DCC_DcuOutput>D:\Auchinlea\Tari Software\AdvisorDCU\</DCC_DcuOutput>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="$(MainSource)">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="LGlobals.pas"/>
+			<DCCReference Include="Splash1.pas">
+				<Form>SplashForm</Form>
+			</DCCReference>
+			<DCCReference Include="DMrep1U.pas">
+				<Form>DMRep1</Form>
+				<DesignClass>TDataModule</DesignClass>
+			</DCCReference>
+			<DCCReference Include="LicenceA.pas">
+				<Form>LicenceFA</Form>
+			</DCCReference>
+			<DCCReference Include="LicenceCalc.pas"/>
+			<DCCReference Include="LicenceExpiry.pas">
+				<Form>LicExpiryDlg</Form>
+			</DCCReference>
+			<DCCReference Include="DMUsers.pas">
+				<Form>DMUserM</Form>
+				<DesignClass>TDataModule</DesignClass>
+			</DCCReference>
+			<DCCReference Include="ServerSel.pas">
+				<Form>ServerSelF</Form>
+			</DCCReference>
+			<DCCReference Include="DIYMain.pas">
+				<Form>DIYMainF</Form>
+			</DCCReference>
+			<DCCReference Include="DMClient.pas">
+				<Form>DataModuleClient</Form>
+				<DesignClass>TDataModule</DesignClass>
+			</DCCReference>
+			<DCCReference Include="DataCollector.pas"/>
+			<DCCReference Include="NewBusiness.pas">
+				<Form>NewBusinessF</Form>
+			</DCCReference>
+			<DCCReference Include="DepartmentSetup.pas">
+				<Form>DepartmentSetupF</Form>
+			</DCCReference>
+			<DCCReference Include="PlanExtension.pas">
+				<Form>PlanExtensionF</Form>
+			</DCCReference>
+			<DCCReference Include="PastInformation.pas">
+				<Form>PastInformationF</Form>
+			</DCCReference>
+			<DCCReference Include="PastPeriodSelection.pas">
+				<Form>PastPeriodSelectionF</Form>
+			</DCCReference>
+			<DCCReference Include="DIYPlanExpenses.pas">
+				<Form>DIYPlanExpensesF</Form>
+			</DCCReference>
+			<DCCReference Include="Invoices.pas">
+				<Form>InvoicesF</Form>
+			</DCCReference>
+			<DCCReference Include="PrintInvoices.pas">
+				<Form>PrintInvoicesF</Form>
+			</DCCReference>
+			<DCCReference Include="Workback.pas">
+				<Form>WorkBackF</Form>
+			</DCCReference>
+			<DCCReference Include="HelpProdFTE.pas">
+				<Form>HelpProdFTEF</Form>
+			</DCCReference>
+			<DCCReference Include="HelpTotalFte.pas">
+				<Form>HelpTotalFteF</Form>
+			</DCCReference>
+			<DCCReference Include="HelpPotentialUnits.pas">
+				<Form>HelpPotentialUnitsF</Form>
+			</DCCReference>
+			<DCCReference Include="HelpPotentialHours.pas">
+				<Form>HelpPotentialHoursF</Form>
+			</DCCReference>
+			<DCCReference Include="PNLWhatIf.pas">
+				<Form>PNLWhatIfF</Form>
+			</DCCReference>
+			<DCCReference Include="TargetingProfit.pas">
+				<Form>TargetingProfitF</Form>
+			</DCCReference>
+			<DCCReference Include="detailTargets.pas">
+				<Form>DetailTargetsF</Form>
+			</DCCReference>
+			<DCCReference Include="ChartHistory.pas"/>
+			<DCCReference Include="CashFlowEngine.pas"/>
+			<DCCReference Include="CashFlowEdit.pas">
+				<Form>CashFlowEditF</Form>
+			</DCCReference>
+			<DCCReference Include="BSWhatif.pas">
+				<Form>BSWhatifF</Form>
+			</DCCReference>
+			<DCCReference Include="CashFlowJrnls.pas">
+				<Form>CashFlowJrnlsF</Form>
+			</DCCReference>
+			<DCCReference Include="EasyJournal.pas">
+				<Form>EasyJournalF</Form>
+			</DCCReference>
+			<DCCReference Include="UltimateWhatif.pas">
+				<Form>UltimatewhatifF</Form>
+			</DCCReference>
+			<DCCReference Include="ReportingTargets.pas">
+				<Form>ReportingTargetsF</Form>
+			</DCCReference>
+			<DCCReference Include="CustomPDFReport.pas"/>
+			<DCCReference Include="TargetPDFReports.pas"/>
+			<DCCReference Include="TargetGrep.pas">
+				<Form>TargetGRepF</Form>
+			</DCCReference>
+			<DCCReference Include="TargetDetailGrep.pas">
+				<Form>TargetDetailGRepF</Form>
+			</DCCReference>
+			<DCCReference Include="Quotes.pas">
+				<Form>QuotesF</Form>
+			</DCCReference>
+			<DCCReference Include="MonitoringSales.pas">
+				<Form>MonitoringSalesF</Form>
+			</DCCReference>
+			<DCCReference Include="MonitoringInvoices.pas">
+				<Form>MonitoringInvoicesF</Form>
+			</DCCReference>
+			<DCCReference Include="MonitoringExpenses.pas">
+				<Form>MonitoringExpensesF</Form>
+			</DCCReference>
+			<DCCReference Include="MonitoringOtherIncome.pas">
+				<Form>MonitoringOtherIncomeF</Form>
+			</DCCReference>
+			<DCCReference Include="DBMaint.pas">
+				<Form>DBMaintF</Form>
+			</DCCReference>
+			<DCCReference Include="ReportingTracking.pas">
+				<Form>ReportingTrackingF</Form>
+			</DCCReference>
+			<DCCReference Include="TrackingPDFReports.pas"/>
+			<DCCReference Include="TrackGrep.pas">
+				<Form>TrackGRepF</Form>
+			</DCCReference>
+			<DCCReference Include="BackupRestore.pas">
+				<Form>BackupFrm</Form>
+			</DCCReference>
+			<DCCReference Include="DBemail.pas">
+				<Form>DBEmailF</Form>
+			</DCCReference>
+			<DCCReference Include="DatePrefers.pas">
+				<Form>DatePrefersF</Form>
+			</DCCReference>
+			<DCCReference Include="MaintainUsers.pas">
+				<Form>MaintainUserF</Form>
+			</DCCReference>
+			<DCCReference Include="DBUpdate.pas">
+				<Form>DBUpdateF</Form>
+			</DCCReference>
+			<DCCReference Include="About.pas">
+				<Form>AboutDialogFm</Form>
+			</DCCReference>
+			<DCCReference Include="showcaption.pas">
+				<Form>ShowLabelF</Form>
+			</DCCReference>
+			<DCCReference Include="LicenceEngine.pas"/>
+			<DCCReference Include="TARIParablesSplash.pas">
+				<Form>TariParablesSplashF</Form>
+			</DCCReference>
+			<DCCReference Include="detailRawTargets.pas">
+				<Form>DetailRawTargetsF</Form>
+			</DCCReference>
+			<DCCReference Include="CashFlowReportingEngine.pas"/>
+			<DCCReference Include="CashFlowDE.pas">
+				<Form>CashFlowDEF</Form>
+			</DCCReference>
+			<DCCReference Include="BusinessSetup.pas">
+				<Form>BusinessSetupF</Form>
+			</DCCReference>
+			<DCCReference Include="ServerMaint.pas">
+				<Form>ServerMaintF</Form>
+			</DCCReference>
+			<DCCReference Include="ExpGrouping.pas">
+				<Form>ExpGroupingF</Form>
+			</DCCReference>
+			<DCCReference Include="TARILoginU.pas">
+				<Form>TARILogin</Form>
+			</DCCReference>
+			<DCCReference Include="detailExpenses.pas">
+				<Form>DetailExpensesF</Form>
+			</DCCReference>
+			<DCCReference Include="TBFiles.pas"/>
+			<DCCReference Include="DMTariMWCli.pas">
+				<Form>DMTariMWClient</Form>
+				<DesignClass>TDataModule</DesignClass>
+			</DCCReference>
+			<DCCReference Include="MWClientIBO.pas">
+				<Form>MWClientForm</Form>
+			</DCCReference>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">Tari.dpr</Source>
+					</Source>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">4</VersionInfo>
+						<VersionInfo Name="MinorVer">4</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">0</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">3081</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName">Auchinlea Pty Ltd</VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription">TARI for Business</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">4.4.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName">TARI for Business</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalCopyright">Auchinlea Pty Ltd (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName">TARI for Business</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">4.4.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Excluded_Packages>
+						<Excluded_Packages Name="C:\Program Files (x86)\Steema Software\TeeChart 2012 for RAD XE2\Delphi16.win32\Bin\DclFMXTeePro916.bpl">TeeChart Pro 2012 for FireMonkey Components</Excluded_Packages>
+						<Excluded_Packages Name="C:\Program Files (x86)\Steema Software\TeeChart 2012 for RAD XE2\Delphi16.iOS\Bin\DclFMITeePro916.bpl">TeeChart Pro 2012 for FireMonkey iOS Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\dclofficexp160.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\dcloffice2k160.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+					</Excluded_Packages>
+				</Delphi.Personality>
+				<Platforms>
+					<Platform value="Win64">False</Platform>
+					<Platform value="Win32">True</Platform>
+				</Platforms>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')" Project="$(BDS)\Bin\CodeGear.Delphi.Targets"/>
+		<Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj"/>
+	</Project>

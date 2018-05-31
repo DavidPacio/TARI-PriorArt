@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+
+<!-- ========================================================================== -->
+<!-- VendorAddRq.xml                                                            -->
+<!-- Sample illustrating the vendor add request.                                -->
+<!--                                                                            -->
+<!-- This XML file contains one add requests for a vendor.                      -->
+<!-- Because it references the vendor type "Materials", this vendor type must   -->
+<!-- exist within the company file being accessed through qbXML                 -->
+<!--                                                                            -->
+<!-- ========================================================================== -->
+
+ <?qbxml version="OZ2.0"?> 
+<QBXML>
+  <!-- onError may be set to continueOnError or stopOnError-->
+  <QBXMLMsgsRq onError = "continueOnError">
+    <VendorAddRq requestID="1">
+      <VendorAdd>
+        <!-- Name is the only required field for an add request, unless Vendor1099 -->
+        <!-- is set to true or 1. Then, the Address elements giving the vendor's   -->
+        <!-- address are required.                                                 -->
+        <Name>Acme</Name>
+        <IsActive>1</IsActive>                           
+        <CompanyName>Acme Food Products</CompanyName>         
+        <Salutation>Mr</Salutation>                    
+        <FirstName>Mike</FirstName>                    
+        <LastName>Acme</LastName>                    
+	 <VendorAddress>                                      
+          <Addr1>4600 N. 1st St.</Addr1>                         
+          <Addr2>Suite B</Addr2>                         
+	  <City>Sydney</City>                   
+	  <County>NSW</County>      
+          <PostalCode>2000</PostalCode>               
+          <Country>Australia</Country>   
+        </VendorAddress> 
+        <Phone>02-95779654</Phone>                   
+        <AltPhone>02-95779999</AltPhone>              
+        <Fax>02-95778888</Fax>                        
+        <Email>info@quicken.com,au</Email>                   
+        <Contact>Mr Leon</Contact>                     
+        <NameOnCheck>Acme Food Products</NameOnCheck>           
+        <AccountNumber>1239-854</AccountNumber>
+        <VendorTypeRef>                                
+          <FullName>Consultant</FullName>                   
+        </VendorTypeRef>
+        <TermsRef>                                  
+          <FullName>1% 10 Net 30</FullName>         
+        </TermsRef>
+        <CreditLimit>10000.00</CreditLimit>       
+      </VendorAdd>
+    </VendorAddRq>
+  </QBXMLMsgsRq>
+</QBXML>

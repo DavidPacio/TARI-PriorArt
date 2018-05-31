@@ -1,0 +1,1081 @@
+[Closed Files]
+File_0=SourceModule,'D:\Auchinlea\Tari Software\MainMYOBInterface.pas',0,1,1,1,1,0,0
+File_1=SourceModule,'D:\Auchinlea\Tari Software\MYOBMain.pas',0,1,1,1,1,0,0
+File_2=SourceModule,'D:\Auchinlea\Tari Software\DMMYOB.pas',0,1,1,1,1,0,0
+File_3=SourceModule,'D:\ElanElan\Tari Software\DMUsers.pas',0,2,553,26,12,1,0
+File_4=SourceModule,'D:\ElanElan\Tari Software\LGlobals.pas',0,1,77,16,96,0,0
+File_5=SourceModule,'D:\ElanElan\Tari Software\LicenceA.pas',0,1,488,1,502,0,0
+File_6=SourceModule,'D:\Auchinlea\Tari Software\TARIParablesSplash.pas',0,1,23,41,36,0,0
+File_7=SourceModule,'D:\Auchinlea\Tari Software\LGlobals.pas',0,1,847,1,857,0,0
+File_8=SourceModule,'D:\Auchinlea\Tari Software\TargetPDFReports.pas',0,1,4084,1,2856,0,0
+File_9=SourceModule,'D:\Auchinlea\Tari Software\CashFlowReportingEngine.pas',0,1,837,1,857,0,0
+
+[Modules]
+Module0=D:\Auchinlea\Tari Software\DMUsers.pas
+Module1=D:\Auchinlea\Tari Software\LGlobals.pas
+Module2=D:\Auchinlea\Tari Software\DIYMain.pas
+Module3=D:\Auchinlea\Tari Software\BusinessSetup.pas
+Module4=D:\Auchinlea\Tari Software\DMrep1U.pas
+Module5=D:\Auchinlea\Tari Software\DatePrefers.pas
+Module6=D:\Auchinlea\Tari Software\ReportingTracking.pas
+Module7=D:\Auchinlea\Tari Software\DMTestCon.pas
+Module8=D:\Auchinlea\Tari Software\DBUpdate.pas
+Module9=D:\Auchinlea\Tari Software\DMClient.pas
+Module10=D:\Auchinlea\Tari Software\LicenceA.pas
+Module11=D:\Auchinlea\Tari Software\BackupRestore.pas
+Module12=D:\Auchinlea\Tari Software\detailExpenses.pas
+Module13=C:\Program Files\Developer Express.VCL\ExpressLibrary\Sources\cxControls.pas
+Module14=C:\Program Files\Developer Express.VCL\ExpressLibrary\Sources\cxContainer.pas
+Module15=c:\program files\borland\delphi7\source\rtl\common\IniFiles.pas
+Module16=C:\Program Files\Clever Components\Clever Internet Suite\Delphi 7\Sources\clConnection.pas
+Module17=C:\Program Files\Clever Components\Clever Internet Suite\Delphi 7\Sources\clHtmlParser.pas
+Module18=D:\Auchinlea\Tari Software\DBMaint.pas
+Module19=D:\Auchinlea\Tari Software\MonitoringOtherIncome.pas
+Module20=D:\Auchinlea\Tari Software\MonitoringExpenses.pas
+Module21=D:\Auchinlea\Tari Software\MonitoringInvoices.pas
+Module22=D:\Auchinlea\Tari Software\MonitoringSales.pas
+Module23=D:\Auchinlea\Tari Software\Quotes.pas
+Module24=D:\Auchinlea\Tari Software\ReportingTargets.pas
+Module25=D:\Auchinlea\Tari Software\UltimateWhatif.pas
+Module26=D:\Auchinlea\Tari Software\EasyJournal.pas
+Module27=D:\Auchinlea\Tari Software\CashFlowJrnls.pas
+Module28=D:\Auchinlea\Tari Software\BSWhatif.pas
+Module29=D:\Auchinlea\Tari Software\CashFlowEdit.pas
+Module30=D:\Auchinlea\Tari Software\detailTargets.pas
+Module31=D:\Auchinlea\Tari Software\TargetingProfit.pas
+Module32=D:\Auchinlea\Tari Software\PNLWhatIf.pas
+Module33=D:\Auchinlea\Tari Software\Workback.pas
+Module34=D:\Auchinlea\Tari Software\PrintInvoices.pas
+Module35=D:\Auchinlea\Tari Software\Invoices.pas
+Module36=D:\Auchinlea\Tari Software\DIYPlanExpenses.pas
+Module37=D:\Auchinlea\Tari Software\PastInformation.pas
+Module38=D:\Auchinlea\Tari Software\PlanExtension.pas
+Module39=D:\Auchinlea\Tari Software\DepartmentSetup.pas
+Module40=D:\Auchinlea\Tari Software\ServerSel.pas
+Module41=D:\Auchinlea\Tari Software\DOITLoginU.pas
+Module42=C:\Program Files\Developer Express.VCL\ExpressEditors Library 5\Sources\cxButtons.pas
+Module43=D:\Auchinlea\Tari Software\LicenceCalc.pas
+Module44=C:\IBO4\IB_Components.pas
+Module45=D:\Auchinlea\Tari Software\LicenceEngine.pas
+Module46=D:\Auchinlea\Tari Software\TrackingPeriod.pas
+Module47=D:\Auchinlea\Tari Software\ChartmanualDE.pas
+Module48=C:\IBO4\IBODataset.pas
+Module49=C:\Program Files\Borland\exotrans\Source\ExoTrans2.pas
+Module50=D:\Auchinlea\Tari Software\auchTypes.pas
+Module51=D:\Auchinlea\Tari Software\ServerMaint.pas
+Module52=D:\Auchinlea\Tari Software\CashFlowDE.pas
+Module53=D:\Auchinlea\Tari Software\detailRawTargets.pas
+Module54=D:\Auchinlea\Tari Software\About.pas
+Module55=D:\Auchinlea\Tari Software\MaintainUsers.pas
+Module56=D:\Auchinlea\Tari Software\PastPeriodSelection.pas
+Module57=D:\Auchinlea\Tari Software\DataCollector.pas
+Module58=C:\IBO4\IB_Session.pas
+Module59=C:\Program Files\Developer Express.VCL\ExpressEditors Library 5\Sources\cxCheckBox.pas
+Module60=C:\Program Files\Developer Express.VCL\ExpressEditors Library 5\Sources\cxCheckListBox.pas
+Module61=D:\Auchinlea\Tari Software\DBemail.pas
+Module62=D:\Auchinlea\Tari Software\CashFlowEngine.pas
+Count=63
+EditWindowCount=1
+
+[D:\Auchinlea\Tari Software\DMUsers.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\LGlobals.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\DIYMain.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\BusinessSetup.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\DMrep1U.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\DatePrefers.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\ReportingTracking.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\DMTestCon.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\DBUpdate.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\DMClient.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=1
+
+[D:\Auchinlea\Tari Software\LicenceA.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\BackupRestore.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\detailExpenses.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\Developer Express.VCL\ExpressLibrary\Sources\cxControls.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\Developer Express.VCL\ExpressLibrary\Sources\cxContainer.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[c:\program files\borland\delphi7\source\rtl\common\IniFiles.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\Clever Components\Clever Internet Suite\Delphi 7\Sources\clConnection.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\Clever Components\Clever Internet Suite\Delphi 7\Sources\clHtmlParser.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\DBMaint.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\MonitoringOtherIncome.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\MonitoringExpenses.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\MonitoringInvoices.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\MonitoringSales.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\Quotes.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\ReportingTargets.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\UltimateWhatif.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\EasyJournal.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\CashFlowJrnls.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\BSWhatif.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\CashFlowEdit.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\detailTargets.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\TargetingProfit.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\PNLWhatIf.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\Workback.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\PrintInvoices.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\Invoices.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\DIYPlanExpenses.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\PastInformation.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\PlanExtension.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\DepartmentSetup.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\ServerSel.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\DOITLoginU.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\Developer Express.VCL\ExpressEditors Library 5\Sources\cxButtons.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\LicenceCalc.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\IBO4\IB_Components.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\LicenceEngine.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\TrackingPeriod.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\ChartmanualDE.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\IBO4\IBODataset.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\Borland\exotrans\Source\ExoTrans2.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\auchTypes.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\ServerMaint.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\CashFlowDE.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\detailRawTargets.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\About.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\MaintainUsers.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\PastPeriodSelection.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\DataCollector.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\IBO4\IB_Session.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\Developer Express.VCL\ExpressEditors Library 5\Sources\cxCheckBox.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\Developer Express.VCL\ExpressEditors Library 5\Sources\cxCheckListBox.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\DBemail.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\CashFlowEngine.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\TariProject.bpg]
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\Tari.dpr]
+FormState=0
+FormOnTop=0
+
+[D:\Auchinlea\Tari Software\Splash1.pas]
+FormState=0
+FormOnTop=0
+
+[EditWindow0]
+ViewCount=63
+CurrentView=54
+View0=0
+View1=1
+View2=2
+View3=3
+View4=4
+View5=5
+View6=6
+View7=7
+View8=8
+View9=9
+View10=10
+View11=11
+View12=12
+View13=13
+View14=14
+View15=15
+View16=16
+View17=17
+View18=18
+View19=19
+View20=20
+View21=21
+View22=22
+View23=23
+View24=24
+View25=25
+View26=26
+View27=27
+View28=28
+View29=29
+View30=30
+View31=31
+View32=32
+View33=33
+View34=34
+View35=35
+View36=36
+View37=37
+View38=38
+View39=39
+View40=40
+View41=41
+View42=42
+View43=43
+View44=44
+View45=45
+View46=46
+View47=47
+View48=48
+View49=49
+View50=50
+View51=51
+View52=52
+View53=53
+View54=54
+View55=55
+View56=56
+View57=57
+View58=58
+View59=59
+View60=60
+View61=61
+View62=62
+CodeExplorer=CodeExplorer@EditWindow0
+MessageView=MessageView@EditWindow0
+Create=1
+Visible=1
+State=0
+Left=280
+Top=162
+Width=1546
+Height=884
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1538
+ClientHeight=850
+LeftPanelSize=140
+LeftPanelClients=CodeExplorer@EditWindow0
+LeftPanelData=000004000000000000000000000000000000000000000000000100000000000000000C000000436F64654578706C6F726572FFFFFFFF
+RightPanelSize=0
+BottomPanelSize=85
+BottomPanelClients=MessageView@EditWindow0
+BottomPanelData=000004000000000000000000000000000000000000000000000100000000000000000B0000004D65737361676556696577FFFFFFFF
+
+[View0]
+Module=D:\Auchinlea\Tari Software\BusinessSetup.pas
+CursorX=1
+CursorY=424
+TopLine=411
+LeftCol=1
+
+[View1]
+Module=D:\Auchinlea\Tari Software\CashFlowEngine.pas
+CursorX=1
+CursorY=933
+TopLine=925
+LeftCol=1
+
+[View2]
+Module=D:\Auchinlea\Tari Software\ReportingTracking.pas
+CursorX=33
+CursorY=159
+TopLine=158
+LeftCol=2
+
+[View3]
+Module=D:\Auchinlea\Tari Software\BackupRestore.pas
+CursorX=1
+CursorY=111
+TopLine=109
+LeftCol=1
+
+[View4]
+Module=D:\Auchinlea\Tari Software\DBemail.pas
+CursorX=33
+CursorY=130
+TopLine=129
+LeftCol=1
+
+[View5]
+Module=C:\Program Files\Developer Express.VCL\ExpressEditors Library 5\Sources\cxCheckListBox.pas
+CursorX=12
+CursorY=53
+TopLine=28
+LeftCol=1
+
+[View6]
+Module=C:\Program Files\Developer Express.VCL\ExpressEditors Library 5\Sources\cxCheckBox.pas
+CursorX=45
+CursorY=58
+TopLine=38
+LeftCol=1
+
+[View7]
+Module=D:\Auchinlea\Tari Software\DMClient.pas
+CursorX=60
+CursorY=1012
+TopLine=997
+LeftCol=1
+
+[View8]
+Module=C:\IBO4\IB_Session.pas
+CursorX=80
+CursorY=1474
+TopLine=1466
+LeftCol=1
+
+[View9]
+Module=D:\Auchinlea\Tari Software\DataCollector.pas
+CursorX=66
+CursorY=3510
+TopLine=3530
+LeftCol=1
+
+[View10]
+Module=D:\Auchinlea\Tari Software\PastPeriodSelection.pas
+CursorX=61
+CursorY=77
+TopLine=65
+LeftCol=1
+
+[View11]
+Module=D:\Auchinlea\Tari Software\DatePrefers.pas
+CursorX=33
+CursorY=65
+TopLine=64
+LeftCol=1
+
+[View12]
+Module=D:\Auchinlea\Tari Software\MaintainUsers.pas
+CursorX=33
+CursorY=82
+TopLine=81
+LeftCol=1
+
+[View13]
+Module=D:\Auchinlea\Tari Software\About.pas
+CursorX=33
+CursorY=153
+TopLine=152
+LeftCol=1
+
+[View14]
+Module=D:\Auchinlea\Tari Software\detailRawTargets.pas
+CursorX=33
+CursorY=214
+TopLine=213
+LeftCol=1
+
+[View15]
+Module=D:\Auchinlea\Tari Software\CashFlowDE.pas
+CursorX=33
+CursorY=136
+TopLine=136
+LeftCol=1
+
+[View16]
+Module=D:\Auchinlea\Tari Software\ServerMaint.pas
+CursorX=33
+CursorY=112
+TopLine=112
+LeftCol=1
+
+[View17]
+Module=D:\Auchinlea\Tari Software\LGlobals.pas
+CursorX=31
+CursorY=608
+TopLine=592
+LeftCol=1
+
+[View18]
+Module=D:\Auchinlea\Tari Software\auchTypes.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View19]
+Module=C:\Program Files\Borland\exotrans\Source\ExoTrans2.pas
+CursorX=1
+CursorY=514
+TopLine=503
+LeftCol=1
+
+[View20]
+Module=C:\IBO4\IBODataset.pas
+CursorX=1
+CursorY=2086
+TopLine=2075
+LeftCol=1
+
+[View21]
+Module=D:\Auchinlea\Tari Software\DMrep1U.pas
+CursorX=29
+CursorY=538
+TopLine=539
+LeftCol=1
+
+[View22]
+Module=D:\Auchinlea\Tari Software\ChartmanualDE.pas
+CursorX=33
+CursorY=33
+TopLine=23
+LeftCol=1
+
+[View23]
+Module=D:\Auchinlea\Tari Software\TrackingPeriod.pas
+CursorX=33
+CursorY=56
+TopLine=43
+LeftCol=1
+
+[View24]
+Module=D:\Auchinlea\Tari Software\LicenceEngine.pas
+CursorX=1
+CursorY=381
+TopLine=381
+LeftCol=1
+
+[View25]
+Module=C:\IBO4\IB_Components.pas
+CursorX=1
+CursorY=23079
+TopLine=23064
+LeftCol=1
+
+[View26]
+Module=D:\Auchinlea\Tari Software\LicenceCalc.pas
+CursorX=26
+CursorY=115
+TopLine=140
+LeftCol=1
+
+[View27]
+Module=D:\Auchinlea\Tari Software\LicenceA.pas
+CursorX=100
+CursorY=497
+TopLine=494
+LeftCol=1
+
+[View28]
+Module=C:\Program Files\Developer Express.VCL\ExpressEditors Library 5\Sources\cxButtons.pas
+CursorX=1
+CursorY=1870
+TopLine=1856
+LeftCol=1
+
+[View29]
+Module=D:\Auchinlea\Tari Software\DOITLoginU.pas
+CursorX=33
+CursorY=106
+TopLine=104
+LeftCol=1
+
+[View30]
+Module=D:\Auchinlea\Tari Software\ServerSel.pas
+CursorX=33
+CursorY=33
+TopLine=31
+LeftCol=1
+
+[View31]
+Module=D:\Auchinlea\Tari Software\DepartmentSetup.pas
+CursorX=33
+CursorY=260
+TopLine=256
+LeftCol=1
+
+[View32]
+Module=D:\Auchinlea\Tari Software\PlanExtension.pas
+CursorX=33
+CursorY=118
+TopLine=116
+LeftCol=1
+
+[View33]
+Module=D:\Auchinlea\Tari Software\PastInformation.pas
+CursorX=33
+CursorY=375
+TopLine=371
+LeftCol=1
+
+[View34]
+Module=D:\Auchinlea\Tari Software\DIYPlanExpenses.pas
+CursorX=33
+CursorY=163
+TopLine=161
+LeftCol=1
+
+[View35]
+Module=D:\Auchinlea\Tari Software\Invoices.pas
+CursorX=33
+CursorY=111
+TopLine=108
+LeftCol=1
+
+[View36]
+Module=D:\Auchinlea\Tari Software\PrintInvoices.pas
+CursorX=33
+CursorY=224
+TopLine=222
+LeftCol=1
+
+[View37]
+Module=D:\Auchinlea\Tari Software\Workback.pas
+CursorX=33
+CursorY=92
+TopLine=89
+LeftCol=1
+
+[View38]
+Module=D:\Auchinlea\Tari Software\PNLWhatIf.pas
+CursorX=33
+CursorY=169
+TopLine=167
+LeftCol=1
+
+[View39]
+Module=D:\Auchinlea\Tari Software\TargetingProfit.pas
+CursorX=33
+CursorY=413
+TopLine=410
+LeftCol=1
+
+[View40]
+Module=D:\Auchinlea\Tari Software\detailTargets.pas
+CursorX=33
+CursorY=156
+TopLine=154
+LeftCol=1
+
+[View41]
+Module=D:\Auchinlea\Tari Software\CashFlowEdit.pas
+CursorX=33
+CursorY=100
+TopLine=98
+LeftCol=1
+
+[View42]
+Module=D:\Auchinlea\Tari Software\BSWhatif.pas
+CursorX=33
+CursorY=148
+TopLine=146
+LeftCol=1
+
+[View43]
+Module=D:\Auchinlea\Tari Software\CashFlowJrnls.pas
+CursorX=33
+CursorY=102
+TopLine=100
+LeftCol=1
+
+[View44]
+Module=D:\Auchinlea\Tari Software\EasyJournal.pas
+CursorX=33
+CursorY=41
+TopLine=39
+LeftCol=1
+
+[View45]
+Module=D:\Auchinlea\Tari Software\UltimateWhatif.pas
+CursorX=33
+CursorY=348
+TopLine=345
+LeftCol=1
+
+[View46]
+Module=D:\Auchinlea\Tari Software\ReportingTargets.pas
+CursorX=33
+CursorY=163
+TopLine=161
+LeftCol=1
+
+[View47]
+Module=D:\Auchinlea\Tari Software\Quotes.pas
+CursorX=33
+CursorY=126
+TopLine=124
+LeftCol=1
+
+[View48]
+Module=D:\Auchinlea\Tari Software\MonitoringSales.pas
+CursorX=80
+CursorY=545
+TopLine=533
+LeftCol=1
+
+[View49]
+Module=D:\Auchinlea\Tari Software\MonitoringInvoices.pas
+CursorX=33
+CursorY=103
+TopLine=102
+LeftCol=1
+
+[View50]
+Module=D:\Auchinlea\Tari Software\MonitoringExpenses.pas
+CursorX=33
+CursorY=189
+TopLine=188
+LeftCol=1
+
+[View51]
+Module=D:\Auchinlea\Tari Software\MonitoringOtherIncome.pas
+CursorX=33
+CursorY=234
+TopLine=233
+LeftCol=1
+
+[View52]
+Module=D:\Auchinlea\Tari Software\DBMaint.pas
+CursorX=33
+CursorY=53
+TopLine=10
+LeftCol=1
+
+[View53]
+Module=D:\Auchinlea\Tari Software\DBUpdate.pas
+CursorX=121
+CursorY=148
+TopLine=444
+LeftCol=2
+
+[View54]
+Module=D:\Auchinlea\Tari Software\DMUsers.pas
+CursorX=60
+CursorY=334
+TopLine=311
+LeftCol=1
+
+[View55]
+Module=C:\Program Files\Clever Components\Clever Internet Suite\Delphi 7\Sources\clHtmlParser.pas
+CursorX=1
+CursorY=356
+TopLine=411
+LeftCol=1
+
+[View56]
+Module=C:\Program Files\Clever Components\Clever Internet Suite\Delphi 7\Sources\clConnection.pas
+CursorX=72
+CursorY=399
+TopLine=442
+LeftCol=1
+
+[View57]
+Module=D:\Auchinlea\Tari Software\DMTestCon.pas
+CursorX=1
+CursorY=1
+TopLine=13
+LeftCol=1
+
+[View58]
+Module=c:\program files\borland\delphi7\source\rtl\common\IniFiles.pas
+CursorX=1
+CursorY=182
+TopLine=161
+LeftCol=1
+
+[View59]
+Module=D:\Auchinlea\Tari Software\DIYMain.pas
+CursorX=5
+CursorY=261
+TopLine=255
+LeftCol=1
+
+[View60]
+Module=C:\Program Files\Developer Express.VCL\ExpressLibrary\Sources\cxContainer.pas
+CursorX=1
+CursorY=1573
+TopLine=1560
+LeftCol=1
+
+[View61]
+Module=C:\Program Files\Developer Express.VCL\ExpressLibrary\Sources\cxControls.pas
+CursorX=1
+CursorY=3382
+TopLine=3366
+LeftCol=1
+
+[View62]
+Module=D:\Auchinlea\Tari Software\detailExpenses.pas
+CursorX=33
+CursorY=229
+TopLine=229
+LeftCol=1
+
+[Watches]
+Count=0
+
+[Breakpoints]
+Count=5
+Breakpoint0='D:\Auchinlea\Tari Software\TARIMYOBTIMES.pas',57,'',0,1,'',1,0,0,'',1,'','',''
+Breakpoint1='D:\Auchinlea\Tari Software\MainMYOBInterface.pas',204,'',0,1,'',1,0,0,'',1,'','',''
+Breakpoint2='D:\Auchinlea\Tari Software\MYOBMain.pas',308,'',0,1,'',1,0,0,'',1,'','',''
+Breakpoint3='D:\Auchinlea\Tari Software\MainInterface.pas',170,'',0,1,'',1,0,0,'',1,'','',''
+Breakpoint4='D:\Auchinlea\Tari Software\TargetPDFReports.pas',2885,'',0,1,'',1,0,0,'',1,'','',''
+
+[AddressBreakpoints]
+Count=0
+
+[Main Window]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=0
+Width=1600
+Height=172
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1592
+ClientHeight=138
+
+[ProjectManager]
+Create=1
+Visible=1
+State=0
+Left=1399
+Top=242
+Width=438
+Height=305
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=430
+ClientHeight=279
+TBDockHeight=305
+LRDockWidth=438
+Dockable=1
+
+[AlignmentPalette]
+Create=1
+Visible=0
+State=0
+Left=200
+Top=114
+Width=156
+Height=84
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=150
+ClientHeight=60
+
+[PropertyInspector]
+Create=1
+Visible=1
+State=0
+Left=2
+Top=172
+Width=271
+Height=991
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=263
+ClientHeight=965
+TBDockHeight=413
+LRDockWidth=181
+Dockable=1
+SplitPos=115
+ArrangeBy=Name
+SelectedItem=Tag
+ExpandedItems=
+HiddenCategories=
+
+[ObjectTree]
+Create=1
+Visible=0
+State=0
+Left=0
+Top=165
+Width=190
+Height=336
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=182
+ClientHeight=310
+TBDockHeight=354
+LRDockWidth=190
+Dockable=1
+
+[DsmToolWindow]
+Create=1
+Visible=0
+State=0
+Left=0
+Top=501
+Width=190
+Height=336
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=182
+ClientHeight=310
+TBDockHeight=280
+LRDockWidth=181
+Dockable=1
+
+[CodeExplorer@EditWindow0]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=12
+Width=140
+Height=720
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=140
+ClientHeight=720
+TBDockHeight=305
+LRDockWidth=140
+Dockable=1
+
+[MessageView@EditWindow0]
+Create=1
+Visible=1
+State=0
+Left=12
+Top=0
+Width=1526
+Height=85
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1526
+ClientHeight=85
+TBDockHeight=85
+LRDockWidth=443
+Dockable=1
+
+[DockHosts]
+DockHostCount=0
+
+[ActiveProject]
+ActiveProject=1
+

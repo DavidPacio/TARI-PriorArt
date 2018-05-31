@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2012/09/04 11:08:05.486,D:\Tari Software\TariProject.groupproj=C:\Users\Trevor\Documents\RAD Studio\Projects\ProjectGroup1.groupproj</Transaction>
+    <Transaction>2012/09/04 11:08:22.884,D:\Tari Software\TariProjectGroup.groupproj=D:\Tari Software\TariProject.groupproj</Transaction>
+  </Transactions>
+  <Default.Personality>
+    <Projects ActiveProject="D:\Tari Software\Tari.dproj"/>
+  </Default.Personality>
+</BorlandProject>

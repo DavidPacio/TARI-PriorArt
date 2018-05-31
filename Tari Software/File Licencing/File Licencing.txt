@@ -1,0 +1,20 @@
+Under file licencing, the software is freely available. Demo databases prevent current year targeting.
+The expiry date on the file licence restricts the period end date. New Demo files are available from FBM
+
+To prevent reverse engineering, the software checksums the exe and version which forms part of the licence check.
+FBM.com.au requires on line registration for each business file.
+
+Discounts are available to 2nd and subsequent purchase to the same company licence.
+ 
+
+
+
+
+
+List of things that an end user might do.
+
+
+1. Rename File and/or business name
+2. Use Serial number for a second business
+3. Business legitimately changes name
+4. An advisor gives away his file rather than sells a new copy of the software.

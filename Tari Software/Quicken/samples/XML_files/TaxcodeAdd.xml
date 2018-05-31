@@ -1,0 +1,47 @@
+ <?qbxml version="OZ2.0" ?>
+<QBXML>
+<QBXMLMsgsRq onError = "stopOnError">
+<TaxCodeAddRq requestID="10085">
+<TaxCodeAdd>
+<Name>NCH</Name>
+<IsActive>true</IsActive>
+<Desc>NCG Tax type</Desc>
+<Tax1Rate>15.00000</Tax1Rate>
+<Tax2Rate>0.00000</Tax2Rate>
+<IsTax1Exempt>false</IsTax1Exempt>
+<IsTax2Exempt>false</IsTax2Exempt>
+<IsPiggybackRate>false</IsPiggybackRate>
+<IsECVatCode>false</IsECVatCode>
+<TaxType>5</TaxType>
+</TaxCodeAdd>
+</TaxCodeAddRq>
+<TaxCodeAddRq requestID="10085">
+<TaxCodeAdd>
+<Name>NCG</Name>
+<IsActive>true</IsActive>
+<Desc>NCG Tax type</Desc>
+<Tax1Rate>20.00000</Tax1Rate>
+<Tax2Rate>0.00000</Tax2Rate>
+<IsTax1Exempt>false</IsTax1Exempt>
+<IsTax2Exempt>false</IsTax2Exempt>
+<IsPiggybackRate>false</IsPiggybackRate>
+<IsECVatCode>false</IsECVatCode>
+<TaxType>0</TaxType>
+</TaxCodeAdd>
+</TaxCodeAddRq>
+<TaxCodeAddRq requestID="10085">
+<TaxCodeAdd>
+<Name>GST</Name>
+<IsActive>true</IsActive>
+<Desc>NCG Tax type</Desc>
+<Tax1Rate>10.30000</Tax1Rate>
+<Tax2Rate>0.00000</Tax2Rate>
+<IsTax1Exempt>false</IsTax1Exempt>
+<IsTax2Exempt>false</IsTax2Exempt>
+<IsPiggybackRate>false</IsPiggybackRate>
+<IsECVatCode>false</IsECVatCode>
+<TaxType>0</TaxType>
+</TaxCodeAdd>
+</TaxCodeAddRq>
+</QBXMLMsgsRq>
+</QBXML>

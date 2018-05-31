@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{1D37BF58-A0BB-4C4D-A66F-0A062BD81C47}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Tari.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="TariSaaS.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="Tari">
+			<MSBuild Projects="Tari.dproj"/>
+		</Target>
+		<Target Name="Tari:Clean">
+			<MSBuild Projects="Tari.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Tari:Make">
+			<MSBuild Projects="Tari.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="TariSaaS">
+			<MSBuild Projects="TariSaaS.dproj"/>
+		</Target>
+		<Target Name="TariSaaS:Clean">
+			<MSBuild Projects="TariSaaS.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="TariSaaS:Make">
+			<MSBuild Projects="TariSaaS.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="Tari;TariSaaS"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="Tari:Clean;TariSaaS:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="Tari:Make;TariSaaS:Make"/>
+		</Target>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
+	</Project>

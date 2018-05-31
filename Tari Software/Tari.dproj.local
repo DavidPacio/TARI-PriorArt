@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011/11/30 08:47:12.000.212,=D:\Tari Software\Unit4.pas</Transaction>
+    <Transaction>2011/11/30 08:47:47.000.359,D:\Tari Software\skinsUnit.pas=D:\Tari Software\Unit4.pas</Transaction>
+    <Transaction>2011/11/30 08:47:47.000.359,D:\Tari Software\skinsUnit.dfm=D:\Tari Software\Unit4.dfm</Transaction>
+    <Transaction>2011/12/01 12:34:35.000.829,=D:\Tari Software\TARILoginU.pas</Transaction>
+    <Transaction>2011/12/01 12:34:44.000.021,=D:\Tari Software\TARILoginDlg.pas</Transaction>
+    <Transaction>2011/12/01 12:39:00.000.049,D:\Tari Software\TARILoginDlg.pas=</Transaction>
+    <Transaction>2011/12/01 13:16:58.000.350,D:\Tari Software\DOITLoginU.pas=</Transaction>
+    <Transaction>2011/12/01 14:09:01.000.120,D:\Tari Software\skinsUnit.pas=</Transaction>
+    <Transaction>2012/06/04 13:53:54.000.653,D:\Tari Software\detailExpenses.dfm=D:\Tari Software\detailExpensesEmpty.dfm</Transaction>
+    <Transaction>2012/06/04 13:53:54.000.653,D:\Tari Software\detailExpenses.pas=D:\Tari Software\detailExpensesEmpty.pas</Transaction>
+    <Transaction>2012/06/04 13:54:15.000.375,D:\Tari Software\detailExpensesEmpty.pas=</Transaction>
+    <Transaction>2012/06/04 13:54:47.000.037,=D:\Tari Software\detailExpensesBK.pas</Transaction>
+    <Transaction>2012/06/04 13:55:11.000.562,D:\Tari Software\detailExpensesBK.pas=D:\Tari Software\detailExpenses.pas</Transaction>
+    <Transaction>2012/06/04 13:55:11.000.562,D:\Tari Software\detailExpensesBK.dfm=D:\Tari Software\detailExpenses.dfm</Transaction>
+    <Transaction>2012/08/23 10:29:54.000.520,=D:\Tari Software\Unit4.pas</Transaction>
+    <Transaction>2012/08/23 10:30:25.000.699,D:\Tari Software\TBFiles.pas=D:\Tari Software\Unit4.pas</Transaction>
+    <Transaction>2012/08/23 16:50:31.000.315,=D:\Tari Software\DMTariMWCli.pas</Transaction>
+    <Transaction>2012/08/23 16:50:59.000.865,=D:\Tari Software\MWClientIBO.pas</Transaction>
+  </Transactions>
+</BorlandProject>

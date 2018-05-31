@@ -1,0 +1,34 @@
+object ShowLabelF: TShowLabelF
+  Left = 488
+  Top = 405
+  VertScrollBar.Visible = False
+  BorderIcons = []
+  BorderStyle = bsDialog
+  ClientHeight = 66
+  ClientWidth = 339
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'Calibri'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 15
+  object Label1: TcxLabel
+    Left = 0
+    Top = 16
+    AutoSize = False
+    Caption = 'Label1'
+    ParentFont = False
+    Style.Font.Charset = DEFAULT_CHARSET
+    Style.Font.Color = clWindowText
+    Style.Font.Height = -16
+    Style.Font.Name = 'Calibri'
+    Style.Font.Style = [fsBold]
+    Style.IsFontAssigned = True
+    Height = 19
+    Width = 337
+  end
+end

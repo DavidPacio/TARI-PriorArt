@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+
+<!-- ========================================================================== -->
+<!-- ReceivePaymentAddRq.xml                                                    -->
+<!--                                                                            -->
+<!-- ========================================================================== -->
+<!-- Sample illustrating the receive payment add request.                       -->
+<!-- This XML file contains a single request to add a receive payment.          -->
+<!--                                                                            -->                                                                  
+<!-- ========================================================================== -->
+
+<?qbxml version="OZ2.0"?> 
+<QBXML>
+  <!-- onError may be set to continueOnError or stopOnError -->
+  <QBXMLMsgsRq onError = "stopOnError">
+    <!-- Each request in a message needs a unique requestID string -->
+    <ReceivePaymentAddRq requestID = "2">
+      <ReceivePaymentAdd>
+        <CustomerRef>
+          <FullName>Ecker Designs:Office Repairs</FullName>
+        </CustomerRef>
+        <!-- Provide a date and a reference number for the payment -->
+        <TxnDate>2002-02-01</TxnDate>                
+        <RefNumber>1000</RefNumber>                      
+        <TotalAmount>100.00</TotalAmount>     
+        <PaymentMethodRef>            
+          <FullName>Cash</FullName>   
+        </PaymentMethodRef>
+        <!-- This payment applies to a single invoice -->
+        <AppliedToTxnAdd>                        
+          <TxnID>1A-1046146292</TxnID> 
+          <PaymentAmount>100.00</PaymentAmount>  
+        </AppliedToTxnAdd>
+      </ReceivePaymentAdd>
+    </ReceivePaymentAddRq>
+  </QBXMLMsgsRq>
+</QBXML>

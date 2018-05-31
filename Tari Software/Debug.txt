@@ -1,0 +1,23 @@
+D:\HA\Lok_On.exe
+Getting Jet DBEngine
+Got Jet DBEngine started
+Just Before Licence Check
+Usercount =0
+Slot Number =0
+Licence OK
+Got DBVersion
+Created User Data Module
+Log on OK
+Main Data Module Created
+DIYMain Created
+Main Form Created
+ReportPreview Complete
+PDFPtr Created
+Lok_On PDF Printer initialised
+Splashform Timer set
+Could not open - C:\Program Files\Focus Based Management\Lok_On Software\Data\Sample.mdb
+Attempting to check version of DB - C:\Program Files\Focus Based Management\Lok_On Software\Data\Sample.mdb
+Attempting to Open - C:\Program Files\Focus Based Management\Lok_On Software\Data\Sample.mdb
+Connected to - C:\Program Files\Focus Based Management\Lok_On Software\Data\Sample.mdb
+Basedir = C:\Program Files\Focus Based Management\Lok_On Software
+ReportingBase Folder = C:\Program Files\Focus Based Management\Lok_On Software\Reports\

@@ -1,0 +1,132 @@
+[FileVersion]
+Version=6.0
+[Compiler]
+A=8
+B=0
+C=1
+D=1
+E=0
+F=0
+G=1
+H=1
+I=1
+J=1
+K=0
+L=1
+M=0
+N=1
+O=0
+P=1
+Q=0
+R=0
+S=0
+T=0
+U=1
+V=1
+W=0
+X=1
+Y=2
+Z=1
+ShowHints=1
+ShowWarnings=1
+UnitAliases=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE
+[Linker]
+MapFile=0
+OutputObjs=0
+ConsoleApp=1
+DebugInfo=1
+RemoteSymbols=0
+MinStackSize=16384
+MaxStackSize=10485760
+ImageBase=5242880
+ExeDescription=
+[Directories]
+OutputDir=C:\Program Files\businessfitness\Lok-On\fb
+UnitOutputDir=
+PackageDLLOutputDir=
+PackageDCPOutputDir=
+SearchPath=$(DELPHI)\Lib\Debug;D:\HA\help\Lok_ONHlp;C:\Program Files\Woll2Woll\ip3000vcl6\source;C:\Program Files\Woll2Woll\1stClass3000vcl6\source;D:\hfw\cmptD6\Auch;D:\hfw\include;D:\hfw\cmptD6\epc;D:\hfw\cmptD6\HighGear;C:\Program Files\Borland\cwcalendar;D:\hfw\cmptD6\DTools3;C:\Interbase Objects
+Packages=Vcl;Vclx;VclSmp;designide;vcldb;bdertl;ip3000v6;Tee;TeeDB;Auchmisc;o403_r60;HAComponents;RxCtl6;S401_r60;MagichintD5;B302cr60;B302vr60;rtl;A403_R60;K101_R60;S401br60;dclOffice2k;ip3000word2000vcl6;dsnap;ip3000clientvcl6;CodeRush;CR_FormPopupFix;HILSharedComponents;dbrtl;vcldbx;bdecds;adortl;dsnapcrba;dsnapcon;dbexpress;dss;vclie;xmlrtl;inet;inetdbbde;inetdbxpress;webdsnap;dbxcds;soaprtl;inetdb;websnap;IBO40CRT;IBO40FRT;IBO40VRT;IBO40TRT;IBO40FTS;IBO40WRT;IBO40RPL;IBO40XRT;IBO40WXDT;IBO40WXRT;ibxpress;indy;nmfast;vclshlctrls;visualclx;visualdbclx
+Conditionals=TEXTDebug
+DebugSourceDirs=.
+UsePackages=0
+[Parameters]
+RunParams=
+HostApplication=C:\Program Files\businessfitness\Lok-On\fb\LOK_ON.exe
+Launcher=
+UseLauncher=0
+DebugCWD=
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=2
+MinorVer=0
+Release=0
+Build=1
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=3081
+CodePage=1252
+[Version Info Keys]
+CompanyName=Auchinlea Pty Ltd
+FileDescription=Lok-On
+FileVersion=2.0.0.1
+InternalName=Lok-On
+LegalCopyright=Auchinlea Pty Ltd (c) 2001, 2002
+LegalTrademarks=
+OriginalFilename=
+ProductName=Lok-On
+ProductVersion=1.1.0.2
+Comments=
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=.
+[HistoryLists\hlConditionals]
+Count=3
+Item0=TEXTDebug
+Item1=RX_D3;HC;HC_LICENCE
+Item2=APP_RUNTIME
+[HistoryLists\hlUnitAliases]
+Count=2
+Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE
+Item1=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+[HistoryLists\hlSearchPath]
+Count=14
+Item0=$(DELPHI)\Lib\Debug;D:\HA\help\Lok_ONHlp;C:\Program Files\Woll2Woll\ip3000vcl6\source;C:\Program Files\Woll2Woll\1stClass3000vcl6\source;D:\hfw\cmptD6\Auch;D:\hfw\include;D:\hfw\cmptD6\epc;D:\hfw\cmptD6\HighGear;C:\Program Files\Borland\cwcalendar;D:\hfw\cmptD6\DTools3;C:\Interbase Objects
+Item1=D:\HA\help\Lok_ONHlp;C:\Program Files\Woll2Woll\ip3000vcl6\source;C:\Program Files\Woll2Woll\1stClass3000vcl6\source;D:\hfw\cmptD6\Auch;D:\hfw\include;D:\hfw\cmptD6\epc;D:\hfw\cmptD6\HighGear;C:\Program Files\Borland\cwcalendar;D:\hfw\cmptD6\DTools3;C:\Interbase Objects
+Item2=c:\program files\opus\directaccess\lib\delphi6;C:\Program Files\Opus\DirectAccess\Src\Lib;D:\HA\help\Lok_ONHlp;C:\Program Files\Woll2Woll\ip3000vcl6\source;C:\Program Files\Woll2Woll\1stClass3000vcl6\source;D:\hfw\cmptD6\Auch;D:\hfw\include;D:\hfw\cmptD6\epc;D:\hfw\cmptD6\HighGear;C:\Program Files\Borland\cwcalendar;D:\hfw\cmptD6\DTools3
+Item3=c:\program files\opus\directaccess\lib\delphi6;C:\Program Files\Opus\DirectAccess\Src\Lib;D:\HA\help\Lok_ONHlp;$(DELPHI)\Lib\Debug;C:\Program Files\Woll2Woll\ip3000vcl6\source;C:\Program Files\Woll2Woll\1stClass3000vcl6\source;D:\hfw\cmptD6\Auch;D:\hfw\include;D:\hfw\cmptD6\epc;D:\hfw\cmptD6\HighGear;C:\Program Files\Borland\cwcalendar;D:\hfw\cmptD6\DTools3
+Item4=c:\program files\opus\directaccess\lib\delphi6;D:\HA\help\Lok_ONHlp;$(DELPHI)\Lib\Debug;C:\Program Files\Woll2Woll\ip3000vcl6\source;C:\Program Files\Woll2Woll\1stClass3000vcl6\source;D:\hfw\cmptD6\Auch;D:\hfw\include;D:\hfw\cmptD6\epc;D:\hfw\cmptD6\HighGear;C:\Program Files\Borland\cwcalendar;D:\hfw\cmptD6\DTools3
+Item5=c:\program files\opus\directaccess\lib\delphi6;D:\HA\help\Lok_ONHlp;C:\Program Files\Woll2Woll\ip3000vcl6\source;C:\Program Files\Woll2Woll\1stClass3000vcl6\source;D:\hfw\cmptD6\Auch;D:\hfw\include;D:\hfw\cmptD6\epc;D:\hfw\cmptD6\HighGear;C:\Program Files\Borland\cwcalendar;D:\hfw\cmptD6\DTools3
+Item6=c:\program files\opus\directaccess\lib\delphi6;D:\HA\help\Lok_ONHlp;C:\Program Files\Woll2Woll\ip3000vcl6\source;$(DELPHI)\Lib\Debug;C:\Program Files\Woll2Woll\1stClass3000vcl6\source;D:\hfw\cmptD6\Auch;D:\hfw\include;D:\hfw\cmptD6\epc;D:\hfw\cmptD6\HighGear;C:\Program Files\Borland\cwcalendar;D:\hfw\cmptD6\DTools3
+Item7=c:\program files\opus\directaccess\lib\delphi6;$(DELPHI)\Lib\Debug;D:\HA\help\Lok_ONHlp;C:\Program Files\Woll2Woll\ip3000vcl6\source;C:\Program Files\Woll2Woll\1stClass3000vcl6\source;D:\hfw\cmptD6\Auch;D:\hfw\include;D:\hfw\cmptD6\epc;D:\hfw\cmptD6\HighGear;C:\Program Files\Borland\cwcalendar;D:\hfw\cmptD6\DTools3
+Item8=$(DELPHI)\Lib\Debug;c:\program files\opus\directaccess\lib\delphi6;D:\HA\help\Lok_ONHlp;C:\Program Files\Woll2Woll\ip3000vcl6\source;C:\Program Files\Woll2Woll\1stClass3000vcl6\source;D:\hfw\cmptD6\Auch;D:\hfw\include;D:\hfw\cmptD6\epc;D:\hfw\cmptD6\HighGear;C:\Program Files\Borland\cwcalendar;D:\hfw\cmptD6\DTools3
+Item9=c:\program files\opus\directaccess\lib\delphi6;$(DELPHI)\Lib\Debug;D:\HA\help\Lok_ONHlp;C:\Program Files\Woll2Woll\1stClass3000vcl6\source;D:\hfw\cmptD6\Auch;D:\hfw\include;D:\hfw\cmptD6\epc;D:\hfw\cmptD6\HighGear;C:\Program Files\Borland\cwcalendar;D:\hfw\cmptD6\DTools3
+Item10=$(DELPHI)\Lib\Debug;c:\program files\opus\directaccess\lib\delphi6;D:\HA\help\Lok_ONHlp;C:\Program Files\Woll2Woll\1stClass3000vcl6\source;D:\hfw\cmptD6\Auch;D:\hfw\include;D:\hfw\cmptD6\epc;D:\hfw\cmptD6\HighGear;C:\Program Files\Borland\cwcalendar;D:\hfw\cmptD6\DTools3
+Item11=\hfw\include;\hfw\cba;\hfw\hca95\licensing;\hfw\cmpt\hil;C:\Program Files\Borland\Delphi5\Bin
+Item12=\hfw\include;\hfw\cba;\hfw\hca95\licensing;\hfw\cmpt\hil
+Item13=\hfw\include;D:\hc\hca
+[HistoryLists\hlUnitOutputDirectory]
+Count=2
+Item0=\hfw\dcu\cmpt
+Item1=D:\hfw\dcu\hc
+[HistoryLists\hlOutputDirectorry]
+Count=5
+Item0=C:\Program Files\businessfitness\Lok-On\fb
+Item1=C:\Program Files\businessfitness\fb\Lok-On
+Item2=C:\Program Files\businessfitness\Lok-On
+Item3=C:\Program Files\businessfitness\Lok_On
+Item4=C:\Program Files\Focus Based Management\Lok_On Software
+[HistoryLists\hlBPLOutput]
+Count=1
+Item0=$(DELPHI)\Bin
+[HistoryLists\hlDCPOutput]
+Count=1
+Item0=$(DELPHI)\Bin

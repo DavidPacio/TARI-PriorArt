@@ -1,0 +1,6 @@
+ <?qbxml version="OZ2.0" ?>
+<QBXML>
+  <QBXMLMsgsRq onError = "stopOnError">
+	<TaxCodeQueryRq />
+  </QBXMLMsgsRq>
+</QBXML>

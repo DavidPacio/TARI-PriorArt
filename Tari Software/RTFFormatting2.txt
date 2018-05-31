@@ -1,0 +1,93 @@
+Printing Rich Edit Controls
+
+The following topics are discussed in this section.
+
+    * Print Preview
+    * Formatting for Print
+    * Banding
+    * Example
+
+Print Preview
+
+To format text in a rich edit control as it will appear on a target device (usually the printed page), send the EM_SETTARGETDEVICE message, passing in the handle to a device context (HDC) of the target device and the desired line width. Usually you will obtain the line width by calling GetDeviceCaps for the target HDC.
+Formatting for Print
+
+To format part of a rich edit control's contents for a specific device, send the EM_FORMATRANGE message. The FORMATRANGE structure used with this message specifies the range of text to format as well as the HDC for the target device. Optionally, this message also sends the text to the printer.
+Banding
+
+Banding is the process by which a single page of output is generated using one or more separate rectangles, or bands. When all bands are placed on the page, a complete image results. This approach is often used by raster printers that do not have sufficient memory or ability to image a full page at one time.
+
+To implement banding, use the EM_DISPLAYBAND message to send successive portions of the rich edit control's content to the device. This message prints to the device that was specified in a previous call to EM_FORMATRANGE. Of course, the wParam parameter of the EM_FORMATRANGE message should be zero, so that printing is not initiated by that message.
+Example
+
+The following example code prints the contents of a rich edit control to the specified printer.
+
+// hwnd is the HWND of the rich edit control.
+// hdc is the HDC of the printer. This value can be obtained for the 
+// default printer as follows:
+//
+//     PRINTDLG pd = { sizeof(pd) };
+//     pd.Flags = PD_RETURNDC | PD_RETURNDEFAULT;
+//     if (PrintDlg(&pd))
+//     {
+//        HDC hdc = pd.hDC;
+//        ...
+//     }
+
+BOOL PrintRTF(HWND hwnd, HDC hdc)
+{
+    DOCINFO di = { sizeof(di) };
+    if (!StartDoc(hdc, &di))
+    {
+        return FALSE;
+    }
+
+    int cxPhysOffset = GetDeviceCaps(hdc, PHYSICALOFFSETX);
+    int cyPhysOffset = GetDeviceCaps(hdc, PHYSICALOFFSETY);
+    int cxPhys = GetDeviceCaps(hdc, PHYSICALWIDTH);
+    int cyPhys = GetDeviceCaps(hdc, PHYSICALHEIGHT);
+
+    // Create "print preview". 
+    SendMessage(hwnd, EM_SETTARGETDEVICE, (WPARAM)hdc, cxPhys/2);
+
+    FORMATRANGE fr;
+    fr.hdc = hdc;
+    fr.hdcTarget = hdc;
+    fr.rc.left = cxPhysOffset;
+    fr.rc.right = cxPhysOffset + cxPhys;
+    fr.rc.top = cyPhysOffset;
+    fr.rc.bottom = cyPhysOffset + cyPhys;
+
+    // Select the entire contents.
+    SendMessage(hwnd, EM_SETSEL, 0, (LPARAM)-1);
+    // Get the selection into a CHARRANGE.
+    SendMessage(hwnd, EM_EXGETSEL, 0, (LPARAM)&fr.chrg);
+
+    BOOL fSuccess = TRUE;
+
+    // Use GDI to print successive pages.
+    while (fr.chrg.cpMin < fr.chrg.cpMax && fSuccess) 
+    {
+        fSuccess = StartPage(hdc) > 0;
+        if (!fSuccess) break;
+        int cpMin = SendMessage(hwnd, EM_FORMATRANGE, TRUE, (LPARAM)&fr);
+        if (cpMin <= fr.chrg.cpMin) 
+        {
+            fSuccess = FALSE;
+            break;
+        }
+        fr.chrg.cpMin = cpMin;
+        fSuccess = EndPage(hdc) > 0;
+    }
+    SendMessage(hwnd, EM_FORMATRANGE, FALSE, 0);
+    if (fSuccess)
+    {
+        EndDoc(hdc);
+    } 
+    else 
+    {
+        AbortDoc(hdc);
+    }
+    return fSuccess;
+}
+

@@ -1,0 +1,189 @@
+[FileVersion]
+Version=7.0
+[Compiler]
+A=8
+B=0
+C=0
+D=0
+E=0
+F=0
+G=1
+H=1
+I=1
+J=1
+K=0
+L=0
+M=0
+N=1
+O=1
+P=1
+Q=0
+R=0
+S=0
+T=0
+U=1
+V=1
+W=0
+X=1
+Y=0
+Z=1
+ShowHints=1
+ShowWarnings=1
+UnitAliases=WinTypes=Windows;WinProcs=Windows
+NamespacePrefix=
+SymbolDeprecated=1
+SymbolLibrary=1
+SymbolPlatform=1
+UnitLibrary=1
+UnitPlatform=1
+UnitDeprecated=1
+HResultCompat=1
+HidingMember=1
+HiddenVirtual=1
+Garbage=1
+BoundsError=1
+ZeroNilCompat=1
+StringConstTruncated=1
+ForLoopVarVarPar=1
+TypedConstVarPar=1
+AsgToTypedConst=1
+CaseLabelRange=1
+ForVariable=1
+ConstructingAbstract=1
+ComparisonFalse=1
+ComparisonTrue=1
+ComparingSignedUnsigned=1
+CombiningSignedUnsigned=1
+UnsupportedConstruct=1
+FileOpen=1
+FileOpenUnitSrc=1
+BadGlobalSymbol=1
+DuplicateConstructorDestructor=1
+InvalidDirective=1
+PackageNoLink=1
+PackageThreadVar=1
+ImplicitImport=1
+HPPEMITIgnored=1
+NoRetVal=1
+UseBeforeDef=1
+ForLoopVarUndef=1
+UnitNameMismatch=1
+NoCFGFileFound=1
+MessageDirective=1
+ImplicitVariants=1
+UnicodeToLocale=1
+LocaleToUnicode=1
+ImagebaseMultiple=1
+SuspiciousTypecast=1
+PrivatePropAccessor=1
+UnsafeType=0
+UnsafeCode=0
+UnsafeCast=0
+[Linker]
+MapFile=0
+OutputObjs=0
+ConsoleApp=1
+DebugInfo=0
+RemoteSymbols=0
+MinStackSize=16384
+MaxStackSize=16777216
+ImageBase=5242880
+ExeDescription=
+[Directories]
+OutputDir=C:\Program Files\Focus Based Management\Lok-On
+UnitOutputDir=D:\Auchinlea\Lok_OnFB\BusinessDCU
+PackageDLLOutputDir=
+PackageDCPOutputDir=
+SearchPath=D:\Auchinlea\LOk_ONFB\BusinessEmbededFB;D:\HA\help\Lok_ONHlp;C:\Program Files\Woll2Woll\ip4000vcl7\source;C:\Program Files\Woll2Woll\1stClass4000vcl7\source;D:\hfw\include;C:\Program Files\Borland\cwcalendar;C:\Interbase Objects;C:\Program Files\FIB\sources;C:\Program Files\Borland\Delphi7\RBuilder\Source
+Packages=Vcl;Vclx;VclSmp;designide;vcldb;bdertl;ip3000v6;Tee;TeeDB;Auchmisc;o403_r60;HAComponents;RxCtl6;S401_r60;MagichintD5;B302cr60;B302vr60;rtl;A403_R60;K101_R60;S401br60;dclOffice2k;ip3000word2000vcl6;dsnap;ip3000clientvcl6;CodeRush;CR_FormPopupFix;HILSharedComponents;dbrtl;vcldbx;bdecds;adortl;dsnapcrba;dsnapcon;dbexpress;vclie;xmlrtl;inet;inetdbbde;inetdbxpress;webdsnap;dbxcds;soaprtl;inetdb;websnap;IBO40CRT;IBO40FRT;IBO40VRT;IBO40TRT;IBO40FTS;IBO40WRT;IBO40RPL;IBO40XRT;IBO40WXDT;IBO40WXRT;ibxpress;indy;nmfast;vclshlctrls;visualclx;visualdbclx
+Conditionals=TEXTDebug;Embedded
+DebugSourceDirs=.
+UsePackages=0
+[Parameters]
+RunParams=
+HostApplication=C:\Program Files\businessfitness\Lok-On\Lok_OnFBB.exe
+Launcher=
+UseLauncher=0
+DebugCWD=
+[Manifest]
+IdentityName=Lok_OnFBB
+Description=Description of Lok_OnFBB
+Include=0
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=2
+MinorVer=5
+Release=2
+Build=2
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=3081
+CodePage=1252
+[Version Info Keys]
+CompanyName=Auchinlea Pty Ltd
+FileDescription=Lok-On Business
+FileVersion=2.5.2.2
+InternalName=Lok-On Business
+LegalCopyright=Auchinlea Pty Ltd (c) 2001, 2002, 2003
+LegalTrademarks=
+OriginalFilename=
+ProductName=Lok-On Business
+ProductVersion=2.5.2.2
+Comments=
+[HistoryLists\hlDebugSourcePath]
+Count=2
+Item0=.
+Item1=.;C:\Program Files\Borland\exotrans\Source\
+[HistoryLists\hlConditionals]
+Count=7
+Item0=TEXTDebug;Embedded
+Item1=TextDebug;Advisor
+Item2=TEXTDebug
+Item3=TextDebug;Advisor;Embedded
+Item4=TEXTDebug;FIREBIRD
+Item5=APP_RUNTIME
+Item6=HA
+[HistoryLists\hlUnitAliases]
+Count=3
+Item0=WinTypes=Windows;WinProcs=Windows
+Item1=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE
+Item2=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
+[HistoryLists\hlSearchPath]
+Count=12
+Item0=D:\Auchinlea\LOk_ONFB\BusinessEmbededFB;D:\HA\help\Lok_ONHlp;C:\Program Files\Woll2Woll\ip4000vcl7\source;C:\Program Files\Woll2Woll\1stClass4000vcl7\source;D:\hfw\include;C:\Program Files\Borland\cwcalendar;C:\Interbase Objects;C:\Program Files\FIB\sources;C:\Program Files\Borland\Delphi7\RBuilder\Source
+Item1=D:\HA\help\Lok_ONHlp;C:\Program Files\Woll2Woll\ip4000vcl7\source;C:\Program Files\Woll2Woll\1stClass4000vcl7\source;D:\hfw\cmptD6\Auch;D:\hfw\include;C:\Program Files\Borland\cwcalendar;C:\Interbase Objects;C:\Program Files\FIB\sources;C:\Program Files\Borland\magchint\source32;C:\Program Files\Borland\Delphi7\RBuilder\Source
+Item2=D:\Auchinlea\LOk_ONFB\BusinessEmbededFB;D:\HA\help\Lok_ONHlp;C:\Program Files\Woll2Woll\ip4000vcl7\source;C:\Program Files\Woll2Woll\1stClass4000vcl7\source;D:\hfw\include;C:\Program Files\Borland\cwcalendar;C:\Interbase Objects;C:\Program Files\FIB\sources
+Item3=D:\HA\help\Lok_ONHlp;C:\Program Files\Woll2Woll\ip4000vcl7\source;C:\Program Files\Woll2Woll\1stClass4000vcl7\source;D:\hfw\include;C:\Program Files\Borland\cwcalendar;C:\Interbase Objects;C:\Program Files\FIB\sources
+Item4=$(DELPHI)\Lib\Debug;D:\HA\help\Lok_ONHlp;C:\Program Files\Woll2Woll\ip4000vcl7\source;C:\Program Files\Woll2Woll\1stClass4000vcl7\source;D:\hfw\cmptD6\Auch;D:\hfw\include;C:\Program Files\Borland\cwcalendar;C:\Interbase Objects;C:\Program Files\FIB\sources;C:\Program Files\Borland\magchint\source32;C:\Program Files\Borland\Delphi7\RBuilder\Source
+Item5=$(DELPHI)\Lib\Debug;D:\HA\help\Lok_ONHlp;C:\Program Files\Woll2Woll\ip4000vcl7\source;C:\Program Files\Woll2Woll\1stClass4000vcl7\source;D:\hfw\include;C:\Program Files\Borland\cwcalendar;C:\Interbase Objects;C:\Program Files\FIB\sources
+Item6=D:\HA\help\Lok_ONHlp;C:\Program Files\Woll2Woll\ip4000vcl7\source;C:\Program Files\Woll2Woll\1stClass4000vcl7\source;D:\hfw\cmptD6\Auch;D:\hfw\include;C:\Program Files\Borland\cwcalendar;C:\Interbase Objects;C:\Program Files\FIB\sources;C:\Program Files\Borland\magchint\source32
+Item7=D:\hfw\cmptD6\hil
+Item8=.
+Item9=\hfw\include
+Item10=\hfw\include;D:\hc\hca
+Item11=D:\hfw\include;D:\hfw\cmpt\ha;D:\hfw\hca95\licensing
+[HistoryLists\hlUnitOutputDirectory]
+Count=3
+Item0=D:\Auchinlea\Lok_OnFB\BusinessDCU
+Item1=D:\Auchinlea\Lok_OnFB\AdvisorDCU
+Item2=D:\hfw\dcu\hc
+[HistoryLists\hlOutputDirectorry]
+Count=4
+Item0=C:\Program Files\Focus Based Management\Lok-On
+Item1=C:\Program Files\Focus Based Management\Lok-On Distribution
+Item2=C:\Program Files\Focus Based Management\Lok-OnB
+Item3=C:\fbm\Lok-OnB
+[HistoryLists\hlBPLOutput]
+Count=1
+Item0=.
+[HistoryLists\hlDCPOutput]
+Count=1
+Item0=.
